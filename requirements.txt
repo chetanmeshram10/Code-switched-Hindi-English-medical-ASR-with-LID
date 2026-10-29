@@ -1,0 +1,10 @@
+torch
+transformers>=4.40
+datasets[audio]
+peft
+accelerate
+jiwer
+librosa
+soundfile
+gradio
+pytest
