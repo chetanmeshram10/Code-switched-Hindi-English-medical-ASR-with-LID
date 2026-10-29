@@ -1,0 +1,3 @@
+# Kaggle already ships torch/transformers/datasets/librosa/soundfile. Only add:
+peft
+jiwer

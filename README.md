@@ -9,7 +9,7 @@ See `src/normalize.py`. The same normalizer is applied to references and hypothe
 
 ## Status
 - [x] Phase 1: normalizer + metrics
-- [ ] Phase 2: data
+- [x] Phase 2: data loader (`src/data.py`)
 - [ ] Phase 3: baselines
 - [ ] Phase 4: LoRA fine-tuning
 - [ ] Phase 5: LID head
