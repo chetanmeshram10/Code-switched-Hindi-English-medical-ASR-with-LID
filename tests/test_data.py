@@ -17,3 +17,18 @@ def _wav_bytes(sr, secs=1.0, channels=1):
 def test_resample_and_mono():
     y = to_16k({"bytes": _wav_bytes(44100, 1.0, 2)})
     assert y.ndim == 1 and abs(len(y) - SR) < 50
+
+
+def test_split_of_and_hinglish_filter(tmp_path):
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+    from src.data import _split_of, iter_hinglish
+    assert _split_of(("data", "train", "0000.parquet")) == "train"
+    assert _split_of(("data", "val", "0000.parquet")) == "validation"
+    assert _split_of(("data", "benchmark", "hinglish", "0.parquet")) is None
+    rows = {"transcription": ["a", "b", "c"], "language": ["hinglish", "en", "hinglish"],
+            "condition": ["clean", "clean", "noisy"]}
+    f = tmp_path / "x.parquet"
+    pq.write_table(pa.table(rows), f)
+    got = list(iter_hinglish([f], "hinglish", "clean", 10))
+    assert [r["transcription"] for r in got] == ["a"]

@@ -3,7 +3,7 @@
 Sources (all streamed, so only the rows we keep are downloaded):
   fleurs_hi : google/fleurs hi_in           (CC-BY-4.0, official speaker-disjoint splits)
   fleurs_en : google/fleurs en_us           (CC-BY-4.0, American English; NOT Indian-accented)
-  hinglish  : addyo07/noisy-hinglish-asr    (Apache-2.0, code-switched; verify script with --inspect)
+  hinglish  : addyo07/noisy-hinglish-asr    (Apache-2.0, code-switched; run --inspect first)
 
 Usage:
   python -m src.data --inspect                      # look at columns/transcripts first
@@ -51,14 +51,49 @@ def load_fleurs(cfg: str, split: str):
         return _probe(ds)
 
 
-def load_hinglish(split: str = "train"):
-    from datasets import Audio, load_dataset
-    ds = load_dataset(HINGLISH_REPO, split=split, streaming=True)
-    try:
-        ds = ds.cast_column("audio", Audio(decode=False))
-    except Exception:
-        pass
-    return ds
+def _split_of(rel_parts):
+    """Map a parquet path (relative to the repo root) to train/validation/test, or None."""
+    if any("benchmark" in p.lower() for p in rel_parts):
+        return None
+    for p in reversed(rel_parts):
+        p = p.lower()
+        if p.startswith("train"):
+            return "train"
+        if p.startswith("val"):
+            return "validation"
+        if p.startswith("test"):
+            return "test"
+    return None
+
+
+def hinglish_files():
+    """Download all parquet shards once (cached) and group them by split."""
+    from huggingface_hub import snapshot_download
+    root = Path(snapshot_download(HINGLISH_REPO, repo_type="dataset", allow_patterns=["*.parquet"]))
+    by_split = {"train": [], "validation": [], "test": []}
+    for f in sorted(root.rglob("*.parquet")):
+        sp = _split_of(f.relative_to(root).parts)
+        if sp:
+            by_split[sp].append(f)
+    return by_split
+
+
+def iter_hinglish(files, lang, clean_value, cap_per_file, seed=42):
+    """Yield rows matching language==lang and clean condition. Works with either the
+    'condition' or the 'noise_type' column name (the dataset card and live data differ)."""
+    import pyarrow.parquet as pq
+    rng = np.random.default_rng(seed)
+    files = list(files)
+    rng.shuffle(files)
+    for f in files:
+        names = pq.read_schema(f).names
+        cond = "condition" if "condition" in names else "noise_type"
+        tbl = pq.read_table(f, filters=[("language", "=", lang), (cond, "=", clean_value)])
+        if tbl.num_rows == 0:
+            continue
+        idx = rng.permutation(tbl.num_rows)[:cap_per_file]
+        for row in tbl.take(idx).to_pylist():
+            yield row
 
 
 def dump(ds, name, split, n, out: Path, text_col, lang, fh, skip=0):
@@ -89,11 +124,25 @@ def dump(ds, name, split, n, out: Path, text_col, lang, fh, skip=0):
 
 
 def inspect():
-    """Print columns + a few transcripts so you can confirm the script (Devanagari vs Latin)."""
-    ds = load_hinglish("train")
-    for i, ex in enumerate(ds):
-        row = {k: (v if k != "audio" else "<audio>") for k, v in ex.items()}
-        print(row)
+    """Show the REAL schema and value counts so we can set the filters correctly."""
+    from collections import Counter
+    import pyarrow.parquet as pq
+    by_split = hinglish_files()
+    print({k: len(v) for k, v in by_split.items()}, "parquet files per split")
+    files = by_split["train"]
+    print("columns:", pq.read_schema(files[0]).names)
+    cnt = Counter()
+    for f in files:
+        names = pq.read_schema(f).names
+        cols = [c for c in ("language", "condition", "noise_type", "source") if c in names]
+        for r in pq.read_table(f, columns=cols).to_pylist():
+            cnt[tuple((c, r[c]) for c in cols)] += 1
+    print("--- value counts (train) ---")
+    for k, v in cnt.most_common(40):
+        print(v, dict(k))
+    print("--- sample hinglish transcripts ---")
+    for i, row in enumerate(iter_hinglish(files, "hinglish", "clean", 20)):
+        print(repr(row["transcription"]))
         if i >= 9:
             break
 
@@ -109,18 +158,12 @@ def build(args):
             for split, n in (("train", n_tr), ("validation", args.n_val), ("test", args.n_test)):
                 dump(load_fleurs(cfg, split), name, split, n, out, "raw_transcription", lang, fhs[split])
 
-        # Hinglish: single stream -> disjoint row ranges for train / val / test
-        def hinglish_stream():
-            ds = load_hinglish("train")
-            ds = ds.filter(lambda e: e.get("language") == "hinglish" and e.get("noise_type") == "clean")
-            return ds.shuffle(seed=42, buffer_size=2000)
-
-        a, b = args.n_hinglish, args.n_hinglish + args.n_val
-        dump(hinglish_stream(), "hinglish", "train", a, out, "transcription", "hinglish", fhs["train"])
-        dump(hinglish_stream(), "hinglish", "validation", args.n_val, out, "transcription", "hinglish",
-             fhs["validation"], skip=a)
-        dump(hinglish_stream(), "hinglish", "test", args.n_test, out, "transcription", "hinglish",
-             fhs["test"], skip=b)
+        # Hinglish: use the dataset's own train/val/test shards (downloaded once, then filtered)
+        by_split = hinglish_files()
+        for split, n in (("train", args.n_hinglish), ("validation", args.n_val), ("test", args.n_test)):
+            rows = iter_hinglish(by_split[split], args.hinglish_lang, args.clean_value,
+                                 cap_per_file=max(50, n // 4))
+            dump(rows, "hinglish", split, n, out, "transcription", "hinglish", fhs[split])
     finally:
         for f in fhs.values():
             f.close()
@@ -135,5 +178,7 @@ if __name__ == "__main__":
     p.add_argument("--n-hinglish", type=int, default=3000)
     p.add_argument("--n-val", type=int, default=200)
     p.add_argument("--n-test", type=int, default=300)
+    p.add_argument("--hinglish-lang", default="hinglish")
+    p.add_argument("--clean-value", default="clean")
     a = p.parse_args()
     inspect() if a.inspect else build(a)
