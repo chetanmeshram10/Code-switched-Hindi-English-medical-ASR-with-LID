@@ -10,8 +10,8 @@ See `src/normalize.py`. The same normalizer is applied to references and hypothe
 ## Status
 - [x] Phase 1: normalizer + metrics
 - [x] Phase 2: data loader (`src/data.py`, single public source: addyo07/noisy-hinglish-asr)
-- [ ] Phase 3: baselines
-- [ ] Phase 4: LoRA fine-tuning
+- [x] Phase 3: zero-shot baseline script (`src/baseline.py`)
+- [x] Phase 4: LoRA fine-tuning script (`src/train.py`)
 - [ ] Phase 5: LID head
 - [ ] Phase 6: medical metrics + error analysis
 - [ ] Phase 7: Gradio demo
