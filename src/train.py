@@ -13,11 +13,17 @@ Outputs: checkpoints/<name>/ (LoRA adapter), results/<name>.csv (WER/CER/MER per
 import argparse
 import csv
 import json
+import os
 from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
 import soundfile as sf
+
+# One GPU only: on Kaggle "T4 x2" the Trainer would wrap the model in nn.DataParallel, which gathers the
+# vocab-sized logits on GPU 0 and runs out of memory. Must be set before torch is imported.
+os.environ.setdefault("CUDA_VISIBLE_DEVICES", "0")
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
 
 from .baseline import FORCED, read_manifest, transcribe
 from .metrics import score, utt_stats
@@ -125,8 +131,8 @@ def main():
     p.add_argument("--augment", action="store_true")
     p.add_argument("--epochs", type=int, default=3)
     p.add_argument("--lr", type=float, default=5e-4)
-    p.add_argument("--batch-size", type=int, default=8)
-    p.add_argument("--grad-accum", type=int, default=2)
+    p.add_argument("--batch-size", type=int, default=4)
+    p.add_argument("--grad-accum", type=int, default=4)
     p.add_argument("--rank", type=int, default=32)
     p.add_argument("--eval-splits", nargs="+", default=["validation", "test"])
     p.add_argument("--ckpt-dir", default="/kaggle/working/checkpoints")
