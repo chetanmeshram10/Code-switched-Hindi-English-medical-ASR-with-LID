@@ -58,13 +58,28 @@ def _split_of(rel_parts):
     return None
 
 
-def dataset_files():
-    """Download all parquet shards once (cached) and group by split. 'other' = unclassified/benchmark."""
-    from huggingface_hub import snapshot_download
-    root = Path(snapshot_download(REPO, repo_type="dataset", allow_patterns=["*.parquet"]))
+def dataset_files(max_workers=4, retries=5):
+    """Download only the train/validation/test parquet shards (cached, resumable, rate-limit tolerant)
+    and group them by split. 'other' = unclassified/benchmark shards (listed, NOT downloaded)."""
+    import time
+    from huggingface_hub import HfApi, snapshot_download
+    remote = sorted(f for f in HfApi().list_repo_files(REPO, repo_type="dataset") if f.endswith(".parquet"))
+    split_of = {f: _split_of(Path(f).parts) for f in remote}
+    need = [f for f, sp in split_of.items() if sp]
+    root = None
+    for attempt in range(1, retries + 1):
+        try:
+            root = Path(snapshot_download(REPO, repo_type="dataset", allow_patterns=need,
+                                          max_workers=max_workers))
+            break
+        except Exception as e:  # e.g. HTTP 429 from the HF CDN; partial files are resumed on retry
+            print(f"[download] attempt {attempt}/{retries} failed ({type(e).__name__}: {str(e)[:120]})")
+            if attempt == retries:
+                raise
+            time.sleep(30 * attempt)
     by = {"train": [], "validation": [], "test": [], "other": []}
-    for f in sorted(root.rglob("*.parquet")):
-        by[_split_of(f.relative_to(root).parts) or "other"].append(f)
+    for f in remote:
+        by[split_of[f] or "other"].append(root / f)
     return by, root
 
 
