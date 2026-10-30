@@ -8,3 +8,10 @@ def test_read_manifest(tmp_path):
         encoding="utf-8")
     rows = read_manifest(tmp_path, "test")
     assert rows[0]["lang"] == "hinglish" and FORCED[rows[0]["lang"]] == "hi"
+
+
+def test_utt_stats_flags_hallucination():
+    from src.metrics import utt_stats
+    s = utt_stats(["hello world", "good morning"], ["hello world", "good morning " * 10])
+    assert s["halluc_rate"] == 0.5
+    assert 0.0 <= s["median_utt_wer"] <= 5.0

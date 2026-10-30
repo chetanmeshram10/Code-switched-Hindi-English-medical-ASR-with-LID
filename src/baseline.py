@@ -15,7 +15,7 @@ from pathlib import Path
 
 import soundfile as sf
 
-from .metrics import score
+from .metrics import score, utt_stats
 
 FORCED = {"hi": "hi", "en": "en", "hinglish": "hi"}
 LANGS = ("hi", "en", "hinglish")
@@ -26,19 +26,26 @@ def read_manifest(data_dir, split):
         return [json.loads(line) for line in f]
 
 
-def transcribe(model, proc, paths, language, batch_size, device):
+def transcribe(model, proc, paths, durations, language, batch_size, device):
+    """Greedy decoding. Clips are sorted by duration and the token budget scales with clip length
+    (a 3 s clip cannot legitimately need 400 tokens), which stops runaway repetition loops."""
     import torch
     dtype = torch.float16 if device == "cuda" else torch.float32
-    hyps = []
-    for i in range(0, len(paths), batch_size):
-        audios = [sf.read(p, dtype="float32")[0] for p in paths[i:i + batch_size]]
+    order = sorted(range(len(paths)), key=lambda i: durations[i])
+    hyps = [None] * len(paths)
+    for s0 in range(0, len(order), batch_size):
+        idx = order[s0:s0 + batch_size]
+        audios = [sf.read(paths[i], dtype="float32")[0] for i in idx]
         feats = proc.feature_extractor(audios, sampling_rate=16000, return_tensors="pt").input_features
-        kwargs = {"task": "transcribe", "max_new_tokens": 400}
+        max_tokens = min(440, int(max(durations[i] for i in idx) * 20) + 30)
+        kwargs = {"task": "transcribe", "max_new_tokens": max_tokens}
         if language:
             kwargs["language"] = language
         with torch.no_grad():
             ids = model.generate(feats.to(device, dtype), **kwargs)
-        hyps += [h.strip() for h in proc.batch_decode(ids, skip_special_tokens=True)]
+        out = proc.batch_decode(ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)
+        for i, h in zip(idx, out):
+            hyps[i] = h.strip()
     return hyps
 
 
@@ -52,7 +59,9 @@ def main():
     a = p.parse_args()
 
     import torch
+    import transformers
     from transformers import WhisperForConditionalGeneration, WhisperProcessor
+    transformers.logging.set_verbosity_error()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("device:", device)
 
@@ -69,12 +78,13 @@ def main():
             subset = [r for r in rows if r["lang"] == lang]
             paths = [str(Path(a.data) / r["audio"]) for r in subset]
             refs = [r["text"] for r in subset]
+            durs = [r["duration"] for r in subset]
             for mode in ("auto", "forced"):
-                hyps = transcribe(model, proc, paths, FORCED[lang] if mode == "forced" else None,
+                hyps = transcribe(model, proc, paths, durs, FORCED[lang] if mode == "forced" else None,
                                   a.batch_size, device)
                 m = score(refs, hyps)
                 table.append({"model": name.split("/")[-1], "lang": lang, "mode": mode, "split": a.split,
-                              "n": len(subset), **{k: round(v, 4) for k, v in m.items()}})
+                              "n": len(subset), **{k: round(v, 4) for k, v in {**m, **utt_stats(refs, hyps)}.items()}})
                 print(table[-1])
                 out = res_dir / "preds" / f"{name.split('/')[-1]}__{mode}__{lang}.jsonl"
                 with open(out, "w", encoding="utf-8") as f:
