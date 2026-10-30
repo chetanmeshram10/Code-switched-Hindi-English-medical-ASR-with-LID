@@ -74,27 +74,44 @@ def _cond_col(names):
 
 def iter_rows(files, lang, clean_value, cap_per_file, source_substr=None, speakers=None, seed=42):
     """Yield rows with language==lang and clean condition (optionally filtered by source/speaker),
-    sampling at most cap_per_file random rows per shard, shards in random order."""
+    sampling at most cap_per_file random rows per shard, shards in random order.
+
+    Memory-safe: metadata is read WITHOUT the audio column, then audio is streamed in small
+    batches and only the selected rows are materialised (a plain table.take() on big English
+    shards overflows Arrow's 2 GB binary-offset limit)."""
+    import pyarrow as pa
     import pyarrow.parquet as pq
     rng = np.random.default_rng(seed)
     files = list(files)
     rng.shuffle(files)
     for f in files:
-        names = pq.read_schema(f).names
-        tbl = pq.read_table(f, filters=[("language", "=", lang), (_cond_col(names), "=", clean_value)])
-        n = tbl.num_rows
-        if n == 0:
-            continue
-        src = tbl.column("source").to_pylist() if "source" in names else [None] * n
-        spk = tbl.column("speaker_id").to_pylist() if "speaker_id" in names else [None] * n
+        pf = pq.ParquetFile(f)
+        names = pf.schema_arrow.names
+        cond = _cond_col(names)
+        meta_cols = [c for c in ("language", cond, "source", "speaker_id") if c in names]
+        meta = pf.read(columns=meta_cols).to_pydict()
+        n = len(meta["language"])
+        src = meta.get("source", [None] * n)
+        spk = meta.get("speaker_id", [None] * n)
         keep = [i for i in range(n)
-                if (not source_substr or source_substr in (src[i] or ""))
+                if meta["language"][i] == lang and meta[cond][i] == clean_value
+                and (not source_substr or source_substr in (src[i] or ""))
                 and (speakers is None or spk[i] in speakers)]
         rng.shuffle(keep)
-        keep = keep[:cap_per_file]
-        if keep:
-            for row in tbl.take(keep).to_pylist():
-                yield row
+        keep = sorted(keep[:cap_per_file])
+        if not keep:
+            continue
+        want = set(keep)
+        offset = 0
+        for batch in pf.iter_batches(batch_size=16):
+            m = batch.num_rows
+            local = [i - offset for i in range(offset, offset + m) if i in want]
+            if local:
+                for row in batch.take(pa.array(local)).to_pylist():
+                    yield row
+            offset += m
+            if offset > keep[-1]:
+                break
 
 
 def speaker_set(files, lang, clean_value, source_substr=None):
@@ -205,7 +222,7 @@ def build(args):
                     ("validation", *pools["validation"], args.n_val),
                     ("test", *pools["test"], args.n_test))
             for split, files, spks, n in plan:
-                rows = iter_rows(files, lang, clean, max(50, n // 4), sub, spks)
+                rows = iter_rows(files, lang, clean, max(100, n // 2), sub, spks)
                 dump(rows, lang, split, n, out, "transcription", lang, fhs[split], text_ok=ok)
     finally:
         for f in fhs.values():

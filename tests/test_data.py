@@ -57,3 +57,17 @@ def test_heldout_speakers_disjoint(tmp_path):
 def test_glued_script_detector():
     assert _GLUED.search("एक अरैarray के")
     assert not _GLUED.search("इस tutorial में module का")
+
+
+def test_multi_rowgroup_streaming_with_audio(tmp_path):
+    n = 7
+    audio = [{"bytes": _wav_bytes(16000, 0.1), "path": f"{i}.wav"} for i in range(n)]
+    tbl = pa.table({"transcription": [f"t{i}" for i in range(n)], "audio": audio,
+                    "language": ["hi", "en"] * 3 + ["hi"],
+                    "condition": ["clean"] * n, "source": ["x"] * n,
+                    "speaker_id": [f"s{i}" for i in range(n)]})
+    f = tmp_path / "big.parquet"
+    pq.write_table(tbl, f, row_group_size=2)
+    got = list(iter_rows([f], "hi", "clean", 100))
+    assert sorted(r["transcription"] for r in got) == ["t0", "t2", "t4", "t6"]
+    assert all(isinstance(r["audio"]["bytes"], (bytes, bytearray)) for r in got)
