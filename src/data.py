@@ -180,6 +180,9 @@ def dump(rows, name, split, n, out: Path, text_col, lang, fh, text_ok=None):
                              "speaker": ex.get("speaker_id"), "split": split,
                              "duration": round(dur, 2)}, ensure_ascii=False) + "\n")
         kept += 1
+        if kept % 250 == 0:
+            fh.flush()
+            print(f"  {name}/{split}: {kept}/{n} clips written ...", flush=True)
         if kept >= n:
             break
     print(f"{name}/{split}: kept {kept} clips" + (f" (dropped {dropped} glued-script labels)" if dropped else ""))
