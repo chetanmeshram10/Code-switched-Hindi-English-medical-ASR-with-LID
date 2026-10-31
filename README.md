@@ -5,6 +5,12 @@ language-ID head and a clinically-oriented evaluation (drug / dose / symptom / l
 
 > Research prototype. Not a medical device. Trained and evaluated on public data and synthetic speech only; no patient data.
 
+## Highlights (held-out test sets, 100 clips per language)
+- **Hinglish WER 2.14 -> 0.38** (zero-shot whisper-small -> LoRA fine-tuned), also better than zero-shot whisper-medium (0.81); hallucination rate 52% -> 2%.
+- **Hindi WER 1.19 -> 0.30.** English did *not* improve (0.23 -> 0.25, within noise at this test size).
+- **Medical probe (synthetic speech, 240 clips):** entity recall 11% / 31% (small / medium zero-shot) -> 48%; sentences with every drug and dose correct 0% / 11% -> 20%. Absolute drug-name accuracy is still low (see Error analysis).
+- **Language ID:** utterance-level hi / en / hinglish head reaches 99% on the public test split, but this is likely optimistic (see Limitations).
+
 ## Why this project
 Doctors in India mix Hindi and English mid-sentence ("Metformin 500 mg सुबह खाने के बाद लीजिए"). Off-the-shelf
 Whisper handles this poorly: zero-shot Whisper-small hallucinates repetition loops on more than half of short
@@ -38,7 +44,53 @@ Hinglish clips (see results), and it writes English terms in the wrong script.
 | whisper-small (zero-shot) | 1.19 / 1.19 | 0.40 / 0.23 | 2.02 / 2.14 |
 | whisper-medium (zero-shot) | 0.68 / 0.65 | 0.49 / 0.21 | 0.78 / 0.81 |
 | **e2** (LoRA whisper-small) | 0.30 / 0.30 | 0.25 / 0.25 | 0.38 / 0.38 |
+
+### Medical probe set (synthetic speech, forced Hindi decoding)
+
+| System | WER | Drug recall | Dose accuracy | Symptom recall | Lab recall | Critical-exact |
+|---|---|---|---|---|---|---|
+| e2 | 0.25 | 24% | 52% | 75% | 31% | 20% |
+| small | 0.63 | 0% | 0% | 36% | 9% | 0% |
+| medium | 0.43 | 11% | 33% | 52% | 24% | 11% |
+
+### Utterance-level language ID
+
+| Metric | Value |
+|---|---|
+| Whisper built-in LID, hi/en collapsed accuracy | 92% |
+| Our head, hi/en collapsed accuracy | 100% |
+| Our head, 3-class accuracy (hi / en / hinglish) | 99% |
+| Our head, macro-F1 | 0.99 |
+| F1 (hi) | 0.99 |
+| F1 (en) | 1.00 |
+| F1 (hinglish) | 0.99 |
+| Head on synthetic medical clips (all Hinglish): predicted hi / en / hinglish | 33% / 0% / 67% |
+
+Confusion matrix (test set):
+
+| gold \ predicted | hi | en | hinglish |
+|---|---|---|---|
+| hi | 98 | 0 | 2 |
+| en | 0 | 100 | 0 |
+| hinglish | 0 | 0 | 100 |
 <!-- RESULTS:END -->
+
+## Error analysis (medical probe set, e2, 240 clips)
+Full output: [`results/medical_errors.md`](results/medical_errors.md).
+
+- **Drug names: 100 of 132 mentions missed.** 33 are close Latin misspellings ("mitformin", "ibu profan"). The other 67 are
+  Devanagari transliterations ("आजित्रोमाइसिन" for Azithromycin), heavily distorted phonetic spellings ("satyrazine" for Cetirizine),
+  or split words ("pan 2 प्रजोल"); my heuristic cannot separate these. In most cases the model *heard* the drug but *spelled* it
+  phonetically, which is a risk for any downstream system that looks up drug names.
+- **Doses: 64 of 132 missed, but 41 of those have the right number with a different unit spelling** ("mgs", "मिल्लीग्राम",
+  "यूनित"). Only 23 are wrong or missing numbers (e.g. 250 heard as 100), which are the clinically dangerous errors.
+- **Implication:** unit canonicalization and lexicon-based drug-name correction (against a formulary) would likely recover
+  much of the gap; adding synthetic medical sentences to training is the other obvious lever. Both are untested here.
+
+## Language-ID results: how to read them
+The head scores 99% (3-class) on the public test split, but hi / en / hinglish here map to different corpora, so part of this
+may be recording-condition detection. On the out-of-domain synthetic medical clips (all Hinglish) it predicts 67% hinglish,
+33% hi and 0% en: it does react to code-switching, but not reliably. Treat the public-split figure as an upper bound.
 
 ## Data
 - **Training / evaluation speech:** [`addyo07/noisy-hinglish-asr`](https://huggingface.co/datasets/addyo07/noisy-hinglish-asr)

@@ -1,3 +1,5 @@
+> **Status:** the results in the root README use a *synthetic* probe set (`medical_set.csv`, spoken by TTS voices; see `src/tts_medical.py`). The recording protocol below is for a planned real-speech extension and has not been run.
+
 # Medical Hinglish test set (self-recorded)
 
 Purpose: a small, held-out, REAL-speech test set of doctor-style Hinglish sentences with drug names,

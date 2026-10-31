@@ -1,0 +1,24 @@
+{
+  "name": "e2",
+  "data": "/kaggle/working/data",
+  "base": "openai/whisper-small",
+  "langs": [
+    "hi",
+    "en",
+    "hinglish"
+  ],
+  "augment": false,
+  "epochs": 3,
+  "lr": 0.0005,
+  "batch_size": 4,
+  "grad_accum": 4,
+  "rank": 32,
+  "eval_splits": [
+    "validation",
+    "test"
+  ],
+  "ckpt_dir": "/kaggle/working/checkpoints",
+  "results": "results",
+  "train_clips": 7889,
+  "train_hours": 15.24
+}
