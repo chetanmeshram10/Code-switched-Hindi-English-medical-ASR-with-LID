@@ -1,0 +1,121 @@
+id,text,drugs,doses,symptoms,labs
+m001,आपको Paracetamol 650 mg दिन में तीन बार लेनी है,Paracetamol,650 mg,,
+m002,मरीज़ को तीन दिन से बुखार और सिर दर्द है,,,बुखार;सिर दर्द,
+m003,Metformin 500 mg सुबह और शाम खाने के बाद लीजिए,Metformin,500 mg,,
+m004,आपका blood pressure 140 by 90 आया है,,,,blood pressure 140 by 90
+m005,Amoxicillin 500 mg हर आठ घंटे में पाँच दिन तक लेनी है,Amoxicillin,500 mg,,
+m006,उसे सीने में दर्द और साँस लेने में तकलीफ़ है,,,सीने में दर्द;साँस लेने में तकलीफ़,
+m007,आपकी HbA1c 7.2 आई है,,,,HbA1c 7.2
+m008,Azithromycin 250 mg रोज़ एक गोली तीन दिन तक लीजिए,Azithromycin,250 mg,,
+m009,पेट में दर्द और उल्टी की शिकायत है,,,पेट में दर्द;उल्टी,
+m010,Pantoprazole 40 mg सुबह खाली पेट लीजिए,Pantoprazole,40 mg,,
+m011,आपका haemoglobin 10.5 है जो थोड़ा कम है,,,,haemoglobin 10.5
+m012,Cetirizine 10 mg रात को सोने से पहले लीजिए,Cetirizine,10 mg,,
+m013,खाँसी और गले में खराश दो हफ़्ते से है,,,खाँसी;गले में खराश,
+m014,Insulin 10 units सुबह और 8 units रात को लगाइए,Insulin,10 units;8 units,,
+m015,आपका sugar fasting 126 आया है,,,,sugar fasting 126
+m016,Ibuprofen 400 mg दर्द होने पर ही लीजिए,Ibuprofen,400 mg,,
+m017,बच्चे को दो दिन से दस्त हो रहे हैं,,,दस्त,
+m018,Atorvastatin 10 mg रोज़ रात को एक गोली लीजिए,Atorvastatin,10 mg,,
+m019,आपको X-ray और CBC test करवाना होगा,,,,X-ray;CBC
+m020,Amlodipine 5 mg सुबह एक बार लीजिए,Amlodipine,5 mg,,
+m021,उन्हें चक्कर आ रहे हैं और कमज़ोरी महसूस होती है,,,चक्कर;कमज़ोरी,
+m022,Dolo 650 बुखार में दिन में दो बार से ज़्यादा मत लीजिए,Dolo 650,,बुखार,
+m023,आपकी creatinine 1.2 है जो थोड़ी ज़्यादा है,,,,creatinine 1.2
+m024,Levothyroxine 50 mcg सुबह खाली पेट लीजिए,Levothyroxine,50 mcg,,
+m025,मरीज़ को जोड़ों में दर्द और सूजन है,,,जोड़ों में दर्द;सूजन,
+m026,Omeprazole 20 mg खाने से आधे घंटे पहले लीजिए,Omeprazole,20 mg,,
+m027,आपकी ECG और echo रिपोर्ट सामान्य है,,,,ECG;echo
+m028,Salbutamol inhaler 2 puff साँस फूलने पर लीजिए,Salbutamol,2 puff,साँस फूलने,
+m029,दवा सात दिन तक लेनी है और फिर दोबारा दिखाइए,,,,
+m030,Ciprofloxacin 500 mg दिन में दो बार लीजिए,Ciprofloxacin,500 mg,,
+m031,उसे पेशाब में जलन और बार बार पेशाब आने की शिकायत है,,,पेशाब में जलन;बार बार पेशाब,
+m032,आपका TSH 6.8 आया है,,,,TSH 6.8
+m033,Aspirin 75 mg रोज़ एक बार दोपहर के खाने के बाद,Aspirin,75 mg,,
+m034,गर्दन में दर्द और अकड़न है,,,गर्दन में दर्द;अकड़न,
+m035,Vitamin D 60000 units हफ़्ते में एक बार आठ हफ़्ते तक,Vitamin D,60000 units,,
+m036,आपका platelet count 1.5 lakh है,,,,platelet count 1.5 lakh
+m037,Prednisolone 20 mg सुबह नाश्ते के बाद पाँच दिन तक,Prednisolone,20 mg,,
+m038,मरीज़ को रात में खाँसी और घबराहट रहती है,,,खाँसी;घबराहट,
+m039,Losartan 50 mg सुबह एक गोली लीजिए,Losartan,50 mg,,
+m040,आपको कल सुबह खाली पेट blood test के लिए आना है,,,,blood test
+g001,सिर दर्द के लिए Pantoprazole 40 mg रात को सोने से पहले लीजिए,Pantoprazole,40 mg,सिर दर्द,
+g002,आपका sugar fasting 126 आया है,,,,sugar fasting 126
+g003,आपका creatinine 1 आया है,,,,creatinine 1
+g004,मरीज़ को थकान और सिर दर्द की शिकायत है,,,थकान;सिर दर्द,
+g005,Ondansetron 4 mg रात को सोने से पहले पाँच दिन तक लीजिए,Ondansetron,4 mg,,
+g006,आपकी रिपोर्ट में blood pressure 150 by 95 है,,,,blood pressure 150 by 95
+g007,मरीज़ को Atorvastatin 10 mg दिन में दो बार एक हफ़्ते तक दीजिए,Atorvastatin,10 mg,,
+g008,मरीज़ को पेट में दर्द और कमज़ोरी की शिकायत है,,,पेट में दर्द;कमज़ोरी,
+g009,आपका TSH 8 आया है,,,,TSH 8
+g010,आपको Domperidone 10 mg रात को सोने से पहले लेनी है,Domperidone,10 mg,,
+g011,मरीज़ को Domperidone 10 mg दिन में तीन बार दस दिन तक दीजिए,Domperidone,10 mg,,
+g012,आपकी रिपोर्ट में cholesterol 220 है,,,,cholesterol 220
+g013,आपकी रिपोर्ट में platelet count 150000 है,,,,platelet count 150000
+g014,मरीज़ को Rabeprazole 20 mg दिन में तीन बार तीन दिन तक दीजिए,Rabeprazole,20 mg,,
+g015,आपकी रिपोर्ट में TSH 8 है,,,,TSH 8
+g016,जोड़ों में दर्द के लिए Glimepiride 2 mg रात को सोने से पहले लीजिए,Glimepiride,2 mg,जोड़ों में दर्द,
+g017,Clopidogrel 75 mg हर आठ घंटे में पाँच दिन तक लीजिए,Clopidogrel,75 mg,,
+g018,मरीज़ को थकान और बुखार की शिकायत है,,,थकान;बुखार,
+g019,आपकी रिपोर्ट में HbA1c 7 है,,,,HbA1c 7
+g020,आपका platelet count 150000 आया है,,,,platelet count 150000
+g021,मरीज़ को Amlodipine 5 mg रात को सोने से पहले तीन दिन तक दीजिए,Amlodipine,5 mg,,
+g022,जोड़ों में दर्द के लिए Doxycycline 100 mg दर्द होने पर लीजिए,Doxycycline,100 mg,जोड़ों में दर्द,
+g023,साँस लेने में तकलीफ़ के लिए Paracetamol 650 mg दिन में दो बार लीजिए,Paracetamol,650 mg,साँस लेने में तकलीफ़,
+g024,Cefixime 200 mg दिन में तीन बार दस दिन तक लीजिए,Cefixime,200 mg,,
+g025,मरीज़ को भूख न लगना और सिर दर्द की शिकायत है,,,भूख न लगना;सिर दर्द,
+g026,पीठ दर्द और कमज़ोरी कब से है,,,पीठ दर्द;कमज़ोरी,
+g027,मरीज़ को Insulin 12 units सुबह खाली पेट दीजिए,Insulin,12 units,,
+g028,साँस लेने में तकलीफ़ और सीने में दर्द कब से है,,,साँस लेने में तकलीफ़;सीने में दर्द,
+g029,Pantoprazole 20 mg दिन में दो बार पाँच दिन तक लीजिए,Pantoprazole,20 mg,,
+g030,मरीज़ को Paracetamol 650 mg दिन में दो बार एक हफ़्ते तक दीजिए,Paracetamol,650 mg,,
+g031,थकान के लिए Paracetamol 500 mg हर आठ घंटे में लीजिए,Paracetamol,500 mg,थकान,
+g032,आपका HbA1c 6 आया है,,,,HbA1c 6
+g033,पीठ दर्द और दस्त कब से है,,,पीठ दर्द;दस्त,
+g034,गले में खराश और चक्कर कब से है,,,गले में खराश;चक्कर,
+g035,Ibuprofen 200 mg रोज़ एक बार पाँच दिन तक लीजिए,Ibuprofen,200 mg,,
+g036,Omeprazole 20 mg सुबह खाने के बाद लीजिए,Omeprazole,20 mg,,
+g037,आपको Ondansetron 4 mg सुबह खाने के बाद तीन दिन तक लेनी है,Ondansetron,4 mg,,
+g038,Montelukast 10 mg सुबह खाली पेट एक हफ़्ते तक लीजिए,Montelukast,10 mg,,
+g039,आपका HbA1c 7 आया है,,,,HbA1c 7
+g040,आपको Vitamin D 60000 units रोज़ एक बार दस दिन तक लेनी है,Vitamin D,60000 units,,
+g041,गले में खराश के लिए Amoxicillin 250 mg हर आठ घंटे में लीजिए,Amoxicillin,250 mg,गले में खराश,
+g042,बुखार के लिए Telmisartan 40 mg दिन में तीन बार लीजिए,Telmisartan,40 mg,बुखार,
+g043,उल्टी के लिए Clopidogrel 75 mg हर आठ घंटे में लीजिए,Clopidogrel,75 mg,उल्टी,
+g044,मरीज़ को Ondansetron 4 mg दिन में तीन बार दीजिए,Ondansetron,4 mg,,
+g045,आपको Rabeprazole 20 mg दिन में तीन बार पाँच दिन तक लेनी है,Rabeprazole,20 mg,,
+g046,आपको Rabeprazole 20 mg सुबह खाली पेट पाँच दिन तक लेनी है,Rabeprazole,20 mg,,
+g047,गले में खराश के लिए Amoxicillin 250 mg दिन में तीन बार लीजिए,Amoxicillin,250 mg,गले में खराश,
+g048,मरीज़ को दस्त और उल्टी की शिकायत है,,,दस्त;उल्टी,
+g049,बुखार और चक्कर कब से है,,,बुखार;चक्कर,
+g050,आपको Insulin 10 units दिन में तीन बार दस दिन तक लेनी है,Insulin,10 units,,
+g051,Prednisolone 20 mg दर्द होने पर दस दिन तक लीजिए,Prednisolone,20 mg,,
+g052,मरीज़ को खाँसी और साँस लेने में तकलीफ़ की शिकायत है,,,खाँसी;साँस लेने में तकलीफ़,
+g053,Pantoprazole 20 mg रोज़ एक बार लीजिए,Pantoprazole,20 mg,,
+g054,मरीज़ को Montelukast 10 mg हर आठ घंटे में पाँच दिन तक दीजिए,Montelukast,10 mg,,
+g055,आपका haemoglobin 9 आया है,,,,haemoglobin 9
+g056,आपको Clopidogrel 75 mg दिन में तीन बार पाँच दिन तक लेनी है,Clopidogrel,75 mg,,
+g057,आपको Amlodipine 2 mg दिन में तीन बार लेनी है,Amlodipine,2 mg,,
+g058,पेट में दर्द के लिए Amlodipine 5 mg सुबह खाने के बाद लीजिए,Amlodipine,5 mg,पेट में दर्द,
+g059,थकान के लिए Dolo 650 mg दिन में दो बार लीजिए,Dolo,650 mg,थकान,
+g060,आपका haemoglobin 13 आया है,,,,haemoglobin 13
+g061,मरीज़ को उल्टी और जोड़ों में दर्द की शिकायत है,,,उल्टी;जोड़ों में दर्द,
+g062,आपको Cetirizine 5 mg रात को सोने से पहले लेनी है,Cetirizine,5 mg,,
+g063,Omeprazole 20 mg सुबह खाने के बाद पाँच दिन तक लीजिए,Omeprazole,20 mg,,
+g064,Amlodipine 2 mg रोज़ एक बार लीजिए,Amlodipine,2 mg,,
+g065,आपको Cefixime 200 mg हर आठ घंटे में लेनी है,Cefixime,200 mg,,
+g066,आपकी रिपोर्ट में creatinine 2 है,,,,creatinine 2
+g067,आपकी रिपोर्ट में platelet count 90000 है,,,,platelet count 90000
+g068,आपका creatinine 2 आया है,,,,creatinine 2
+g069,गले में खराश और दस्त कब से है,,,गले में खराश;दस्त,
+g070,थकान के लिए Amoxicillin 250 mg रात को सोने से पहले लीजिए,Amoxicillin,250 mg,थकान,
+g071,Diclofenac 50 mg दिन में दो बार लीजिए,Diclofenac,50 mg,,
+g072,पेट में दर्द के लिए Pantoprazole 40 mg रोज़ एक बार लीजिए,Pantoprazole,40 mg,पेट में दर्द,
+g073,आपको Glimepiride 1 mg रोज़ एक बार पाँच दिन तक लेनी है,Glimepiride,1 mg,,
+g074,मरीज़ को Cetirizine 10 mg दर्द होने पर एक हफ़्ते तक दीजिए,Cetirizine,10 mg,,
+g075,दस्त और उल्टी कब से है,,,दस्त;उल्टी,
+g076,Glimepiride 2 mg हर आठ घंटे में लीजिए,Glimepiride,2 mg,,
+g077,मरीज़ को नींद न आना और साँस लेने में तकलीफ़ की शिकायत है,,,नींद न आना;साँस लेने में तकलीफ़,
+g078,सीने में दर्द और कमज़ोरी कब से है,,,सीने में दर्द;कमज़ोरी,
+g079,आपका sugar fasting 96 आया है,,,,sugar fasting 96
+g080,आपको Amoxicillin 500 mg सुबह खाने के बाद पाँच दिन तक लेनी है,Amoxicillin,500 mg,,

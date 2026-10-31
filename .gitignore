@@ -11,3 +11,6 @@ checkpoints/
 outputs/
 wandb/
 .env
+*.mp3
+data/medical/audio/
+models/*.tmp

@@ -1,0 +1,41 @@
+id,text,drugs,doses,symptoms,labs
+m001,आपको Paracetamol 650 mg दिन में तीन बार लेनी है,Paracetamol,650 mg,,
+m002,मरीज़ को तीन दिन से बुखार और सिर दर्द है,,,बुखार;सिर दर्द,
+m003,Metformin 500 mg सुबह और शाम खाने के बाद लीजिए,Metformin,500 mg,,
+m004,आपका blood pressure 140 by 90 आया है,,,,blood pressure 140 by 90
+m005,Amoxicillin 500 mg हर आठ घंटे में पाँच दिन तक लेनी है,Amoxicillin,500 mg,,
+m006,उसे सीने में दर्द और साँस लेने में तकलीफ़ है,,,सीने में दर्द;साँस लेने में तकलीफ़,
+m007,आपकी HbA1c 7.2 आई है,,,,HbA1c 7.2
+m008,Azithromycin 250 mg रोज़ एक गोली तीन दिन तक लीजिए,Azithromycin,250 mg,,
+m009,पेट में दर्द और उल्टी की शिकायत है,,,पेट में दर्द;उल्टी,
+m010,Pantoprazole 40 mg सुबह खाली पेट लीजिए,Pantoprazole,40 mg,,
+m011,आपका haemoglobin 10.5 है जो थोड़ा कम है,,,,haemoglobin 10.5
+m012,Cetirizine 10 mg रात को सोने से पहले लीजिए,Cetirizine,10 mg,,
+m013,खाँसी और गले में खराश दो हफ़्ते से है,,,खाँसी;गले में खराश,
+m014,Insulin 10 units सुबह और 8 units रात को लगाइए,Insulin,10 units;8 units,,
+m015,आपका sugar fasting 126 आया है,,,,sugar fasting 126
+m016,Ibuprofen 400 mg दर्द होने पर ही लीजिए,Ibuprofen,400 mg,,
+m017,बच्चे को दो दिन से दस्त हो रहे हैं,,,दस्त,
+m018,Atorvastatin 10 mg रोज़ रात को एक गोली लीजिए,Atorvastatin,10 mg,,
+m019,आपको X-ray और CBC test करवाना होगा,,,,X-ray;CBC
+m020,Amlodipine 5 mg सुबह एक बार लीजिए,Amlodipine,5 mg,,
+m021,उन्हें चक्कर आ रहे हैं और कमज़ोरी महसूस होती है,,,चक्कर;कमज़ोरी,
+m022,Dolo 650 बुखार में दिन में दो बार से ज़्यादा मत लीजिए,Dolo 650,,बुखार,
+m023,आपकी creatinine 1.2 है जो थोड़ी ज़्यादा है,,,,creatinine 1.2
+m024,Levothyroxine 50 mcg सुबह खाली पेट लीजिए,Levothyroxine,50 mcg,,
+m025,मरीज़ को जोड़ों में दर्द और सूजन है,,,जोड़ों में दर्द;सूजन,
+m026,Omeprazole 20 mg खाने से आधे घंटे पहले लीजिए,Omeprazole,20 mg,,
+m027,आपकी ECG और echo रिपोर्ट सामान्य है,,,,ECG;echo
+m028,Salbutamol inhaler 2 puff साँस फूलने पर लीजिए,Salbutamol,2 puff,साँस फूलने,
+m029,दवा सात दिन तक लेनी है और फिर दोबारा दिखाइए,,,,
+m030,Ciprofloxacin 500 mg दिन में दो बार लीजिए,Ciprofloxacin,500 mg,,
+m031,उसे पेशाब में जलन और बार बार पेशाब आने की शिकायत है,,,पेशाब में जलन;बार बार पेशाब,
+m032,आपका TSH 6.8 आया है,,,,TSH 6.8
+m033,Aspirin 75 mg रोज़ एक बार दोपहर के खाने के बाद,Aspirin,75 mg,,
+m034,गर्दन में दर्द और अकड़न है,,,गर्दन में दर्द;अकड़न,
+m035,Vitamin D 60000 units हफ़्ते में एक बार आठ हफ़्ते तक,Vitamin D,60000 units,,
+m036,आपका platelet count 1.5 lakh है,,,,platelet count 1.5 lakh
+m037,Prednisolone 20 mg सुबह नाश्ते के बाद पाँच दिन तक,Prednisolone,20 mg,,
+m038,मरीज़ को रात में खाँसी और घबराहट रहती है,,,खाँसी;घबराहट,
+m039,Losartan 50 mg सुबह एक गोली लीजिए,Losartan,50 mg,,
+m040,आपको कल सुबह खाली पेट blood test के लिए आना है,,,,blood test

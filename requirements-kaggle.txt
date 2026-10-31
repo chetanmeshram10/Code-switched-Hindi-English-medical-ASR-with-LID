@@ -1,3 +1,5 @@
-# Kaggle already ships torch/transformers/datasets/librosa/soundfile. Only add:
+# Kaggle already ships torch/transformers/datasets/librosa/soundfile/scikit-learn. Only add:
 peft
 jiwer
+edge-tts
+gTTS
