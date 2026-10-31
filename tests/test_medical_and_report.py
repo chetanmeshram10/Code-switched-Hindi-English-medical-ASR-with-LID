@@ -57,3 +57,14 @@ def test_report_builds(tmp_path):
     text = make_report.build(str(rd))
     assert "whisper-small (zero-shot)" in text and "**e2**" in text and "52%" in text
     assert "Confusion matrix" in text and "10% / 0% / 90%" in text
+
+
+def test_error_categories():
+    from src.medical_errors import classify_drug, classify_dose, analyse
+    assert classify_drug("Paracetamol", "आप paracetmol लीजिए")[0] == "latin_misspelling"
+    assert classify_drug("Paracetamol", "आप पैरासिटामोल लीजिए")[0] == "other_or_devanagari"
+    assert classify_dose("650 mg", "दवा 650 मिलीग्राम लीजिए") == "number_ok_unit_differs"
+    assert classify_dose("650 mg", "दवा 500 mg लीजिए") == "number_wrong_or_missing"
+    rows = [{"text": "Paracetamol 650 mg", "drugs": "Paracetamol", "doses": "650 mg"}]
+    nd, nx, dc, xc, ex = analyse(rows, ["पैरासिटामोल 650 मिलीग्राम"])
+    assert nd == 1 and nx == 1 and sum(dc.values()) == 1 and sum(xc.values()) == 1 and len(ex) == 2
