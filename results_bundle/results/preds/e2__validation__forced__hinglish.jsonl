@@ -1,0 +1,100 @@
+{"audio": "audio/hinglish_validation_000000.wav", "ref": "custom exceptions पर spoken tutorial में आपका स्वागत है", "hyp": "custom exceptions पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_validation_000001.wav", "ref": "इस tutorial में हम निम्न के बारे में सीखेंगे: custom exceptions और throw और throws keywords का उपयोग", "hyp": "इस tutorial में हम निम्न के बारे में सीखेंगे custom exceptions or throw or throw स्कीवर्ड का उपयोग"}
+{"audio": "audio/hinglish_validation_000002.wav", "ref": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ : ubuntu linux 1604 os jdk 17 और eclipse 431", "hyp": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ"}
+{"audio": "audio/hinglish_validation_000003.wav", "ref": "इस tutorial का अनुकरण करने के लिए आपको java में exceptions handling का बुनियादी ज्ञान होना चाहिए यदि नहीं है तो संबंधित java tutorial के लिए कृपया निम्न link पर जाएँ", "hyp": "इस tutorial का अनुसरण करने के लिए आपको java में exceptions handling का बुनियादी ज्ञान होना चाहिए यदि नहीं है तो संबंधित java tutorial के लिए कृपया द्वाद्धियम link पर जाएँ"}
+{"audio": "audio/hinglish_validation_000004.wav", "ref": "पहले custom exceptions के बारे में सीखते हैं", "hyp": "पहले custom exceptions के बारे में सीखते हैं"}
+{"audio": "audio/hinglish_validation_000005.wav", "ref": "custom exception एक user defined exception class है इसे आमतौर पर checked exceptions के रूप में बनाया जाता है", "hyp": "custom exception एक यूज़र डिफाइंड exception class है इसे आमतौर पर checked exceptions के रूप में बनाया जाता है"}
+{"audio": "audio/hinglish_validation_000006.wav", "ref": "इसका उपयोग यूजर की आवश्यकता के अनुसार exception customize करने के लिए किया जाता है", "hyp": "इसका उपयोग यूज़र की आवश्यकता के अनुसार exception customization करने के लिए किया जाता है"}
+{"audio": "audio/hinglish_validation_000007.wav", "ref": "हम eclipse खोलेंगे और customexceptiondemo नामक एक now project बनायेंगे", "hyp": "हम eclipse खोलेंगे और custom exception demo नामक एक नया project बनायेंगे"}
+{"audio": "audio/hinglish_validation_000008.wav", "ref": "custom exceptions के प्रदर्शन के लिए इस project में हम आवश्यक classes बनायेंगे", "hyp": "custom exceptions के प्रदर्शन के लिए इस project में हम आवश्यक classes बनायेंगे"}
+{"audio": "audio/hinglish_validation_000009.wav", "ref": "हम नया class invalidmarkexception बनायेंगे", "hyp": "हम नया class invalid mark exception बनाएँगे"}
+{"audio": "audio/hinglish_validation_000010.wav", "ref": "पर्ल में हैश पर स्पोकन ट्यूटोरियल में आपका स्वागत है", "hyp": "पर्ल में hash पर स्पोकन ट्यूटोरियल में आपका स्वागत है"}
+{"audio": "audio/hinglish_validation_000011.wav", "ref": "इस tutorial में हम सीखेंगे", "hyp": "इस tutorial में हम सीखेंगे"}
+{"audio": "audio/hinglish_validation_000012.wav", "ref": "पर्ल में हैश और", "hyp": "पर्ल में hash और"}
+{"audio": "audio/hinglish_validation_000013.wav", "ref": "हैश के एलिमेंट को एक्सेस करना", "hyp": "hash के element को access करना"}
+{"audio": "audio/hinglish_validation_000014.wav", "ref": "इस tutorial के लिए मैं उपयोग कर रहा हूँ", "hyp": "इस tutorial के लिए मैं उपयोग कर रही हूँ"}
+{"audio": "audio/hinglish_validation_000015.wav", "ref": "उबंटु लिनक्स 1204 ऑपरेटिंग सिस्टम", "hyp": "उबंटु लीनक्स 1204 ऑपरेटिंग सिस्टम"}
+{"audio": "audio/hinglish_validation_000016.wav", "ref": "पर्ल 5142 और", "hyp": "टर्ल 5 पॉइंट 14 पूइंट 2 और"}
+{"audio": "audio/hinglish_validation_000017.wav", "ref": "gedit टेक्स्ट एडिटर", "hyp": "gedit text editor"}
+{"audio": "audio/hinglish_validation_000018.wav", "ref": "आप अपने पसंद के किसी भी text editor का उपयोग कर सकते हैं", "hyp": "आप अपने पसन के किसी भी टेक्स्ट एडिटर का उपयोग कर सकते हैं"}
+{"audio": "audio/hinglish_validation_000019.wav", "ref": "इस ट्यूटोरियल के अभ्यास के लिए आपको पर्ल में वेरिएबल्स और डेटा स्ट्रक्चर्स का ज्ञान होना चाहिए", "hyp": "इस tutorial के अभ्यास के लिए आपको पर्ल में variables और data structures का ज्ञान होना चाहिए"}
+{"audio": "audio/hinglish_validation_000020.wav", "ref": "आपका फिर से स्वागत है हम इस send mail from not set in php dot ini एरर को कैसे व्यवस्थित करें", "hyp": "हमने निर्धार प्रदर्स होना चाहिए तो व्यवहार जानकारी प्रदर्स होना चाहिए तो व्यवहार जानकारी प्रदर्स होना चाहिए"}
+{"audio": "audio/hinglish_validation_000021.wav", "ref": "हमने निर्धारित नहीं किया है कि यह इमेल किसके तरफ से है", "hyp": "हमने निर्धारिप नहीं किया है कि यह email किसके तरफ से है"}
+{"audio": "audio/hinglish_validation_000022.wav", "ref": "इमेल भेजने के लिए हमें यह करने की आवश्यकता है", "hyp": "हम यहाँ form parameter जैसा कौने के लिए जाँचें"}
+{"audio": "audio/hinglish_validation_000023.wav", "ref": "हम यहाँ from पैरामीटर जैसा कुछ भी उपयोग नहीं करेंगे", "hyp": "हमें विशेष headers को भेजने की आवश्यकता है"}
+{"audio": "audio/hinglish_validation_000024.wav", "ref": "हमें विशेष हैडर्स को भेजने की आवश्यकता है", "hyp": "अतः यहाँ हम headers वेरिएबल बनाते हैं"}
+{"audio": "audio/hinglish_validation_000025.wav", "ref": "अतः यहाँ हम headers  वेरिएबल बनाते हैं जो कि me @mecom  जैसे कुछ के समान नहीं है", "hyp": "जोकि me at me dot com जैसे कुछ के समान नहीं है"}
+{"audio": "audio/hinglish_validation_000026.wav", "ref": "हमें स्टैंडर्डाइज्ड मेल हैडर के साथ कार्य करने की जरूरत है जो है from: और कोलन न कि सेमीकोलन और फिर हम लिखते हैं उदाहरणस्वरूप php academy", "hyp": "और फिर हम लिखते हैं उदाहरणस्वरूप phpacademy या आप add और यहाँ स्ट्रिंग करने के लिए"}
+{"audio": "audio/hinglish_validation_000027.wav", "ref": "या आप admin @php academy  जैसा कुछ लिख सकते हैं और com  जोड़ें यदि आप चाहते हैं", "hyp": "यदि आप चाहते हैं वास्तव में मेरे पास वहरणारी अपना वाली पास के लिए जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर ज"}
+{"audio": "audio/hinglish_validation_000028.wav", "ref": "वास्तव में मेरे पास वह डोमैन नाम नहीं है लेकिन हम इसे उसी की तरह रखेंगे", "hyp": "अतः from admin ad php academy और और अधिक पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर जानकारी पर �"}
+{"audio": "audio/hinglish_validation_000029.wav", "ref": "अतः from: admin @phpacademycom", "hyp": "अपने mail के अन्दर हमें अन्य parameters जोड़ना चाहिए"}
+{"audio": "audio/hinglish_validation_000030.wav", "ref": "दोस्तों लिनक्स operating system के मौखिक tutorial में आपका स्वागत है", "hyp": "दोस्तों लिनक्स operating system के मौकिक tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_validation_000031.wav", "ref": "इस tutorial में हम कुछ basic commands का अध्ययन करेंगे", "hyp": "इस tutorial में हम कुछ basic commands क्या अध्ययन करेंगे"}
+{"audio": "audio/hinglish_validation_000032.wav", "ref": "मैं लिनक्स operating system इस्तेमाल कर रही हूँ", "hyp": "मैं लिनक्स operating system इस्तेमाल करें"}
+{"audio": "audio/hinglish_validation_000033.wav", "ref": "हम यह मानते हैं कि लिनक्स operating system के साथ शुरुआत कैसे करना है ये आपको पता है", "hyp": "हम यह मान रहे हैं कि लिनक्स operating system के साथ शुरुआत कैसे करना है"}
+{"audio": "audio/hinglish_validation_000034.wav", "ref": "अगर इसके बारे में जानना है तो", "hyp": "यह आपको पता है अगर इसके बारे में जानना है तो यह www spoken hyphen tutorial dot org website पर एक दूसरे tutorial को निर्धारित करना"}
+{"audio": "audio/hinglish_validation_000035.wav", "ref": "इस tutorial में हम देखेंगे कि commands क्या हैं और commands व्याख्याकार या interpreter क्या है", "hyp": "इस tutorial में हम देखेंगे कि एक commands क्या है और commands व्यक्षक कार या interpreter के लिए करें"}
+{"audio": "audio/hinglish_validation_000036.wav", "ref": "फिर हम सीखेंगे कि man man command के इस्तेमाल से लिनक्स में help कैसे पता करें", "hyp": "अब पहला सामान्य पास के लिनक्स पर निर्धारित करें"}
+{"audio": "audio/hinglish_validation_000037.wav", "ref": "अब पहला सवाल है कि commands क्या हैं", "hyp": "अब पहला सवाल है कि commands क्या हैं"}
+{"audio": "audio/hinglish_validation_000038.wav", "ref": "सरल शब्दों में कहें तो लिनक्स commands ऐसे शब्द हैं जो दिए जाने पर कुछ actions या कार्य करते हैं", "hyp": "सरल शब्दों में कहें तो लिनक्स commands ऐसे शब्द हैं जो दिए जाने पर कुछ action या कार्य करते हैं"}
+{"audio": "audio/hinglish_validation_000039.wav", "ref": "लिनक्स कमांड्स शायद ही कभी चार से ज्यादा अक्षर के होंगे जैसे कि ls who ps", "hyp": "लिनक्स commands शायत ही कभी चार से ज़्यादा अक्षर के होंगे जैसे kls who ps"}
+{"audio": "audio/hinglish_validation_000040.wav", "ref": "global system preferences पर spoken tutorial में आपका स्वागत है", "hyp": "global system preferences पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_validation_000041.wav", "ref": "इस tutorial में हम library opac को अनुकूलित करने के लिए global system preferences set करना सीखेंगे", "hyp": "इस tutorial में हम library opac को अनुकलित करने के लिए global system preferences site करना सीखेंगे"}
+{"audio": "audio/hinglish_validation_000042.wav", "ref": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ", "hyp": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ"}
+{"audio": "audio/hinglish_validation_000043.wav", "ref": "इस tutorial का अनुकरण करने के लिए आपको library science का ज्ञान होना चाहिए", "hyp": "इस tutorial का अनुकरण करने के लिए आपको library science का ज्ञान होना चाहिए"}
+{"audio": "audio/hinglish_validation_000044.wav", "ref": "इस tutorial का अभ्यास करने के लिए आपके system पर koha संस्थापित होना चाहिए", "hyp": "इस tutorial का अभ्यास करने के लिए आपके system पर koha संस्थापित होना चाहिए"}
+{"audio": "audio/hinglish_validation_000045.wav", "ref": "आपको koha में admin access भी होना चाहिए", "hyp": "आपको koha में admin access भी होना चाहिए"}
+{"audio": "audio/hinglish_validation_000046.wav", "ref": "यदि नहीं तो कृपया इस website पर koha spoken tutorial की श्रृंखला देखें", "hyp": "यदि नहीं तो कृपया इस website पर koha spoken tutorial की श्रृंखला देखें"}
+{"audio": "audio/hinglish_validation_000047.wav", "ref": "शुरू करते हैं", "hyp": "शुरू करते हैं"}
+{"audio": "audio/hinglish_validation_000048.wav", "ref": "superlibrarian bella और उसके password से login करें", "hyp": "superlibrarian bella और उसके password से login करें"}
+{"audio": "audio/hinglish_validation_000049.wav", "ref": "koha homepage पर koha administration पर click करें", "hyp": "koha homepage पर koha administration पर click करें"}
+{"audio": "audio/hinglish_validation_000050.wav", "ref": "libreoffice base पर इस spoken tutorial में आपका स्वागत है", "hyp": "लिबर ऑफिस base पर sspoken ट्यूटोरियल"}
+{"audio": "audio/hinglish_validation_000051.wav", "ref": "इस tutorial में हम निम्न विषय सीखेंगे:", "hyp": "इस tutorial में हम निम्न विषय सीखेंगे"}
+{"audio": "audio/hinglish_validation_000052.wav", "ref": "पहले indexes के बारे में सीखते हैं", "hyp": "पहले indexes के बारे में सीखते हैं"}
+{"audio": "audio/hinglish_validation_000053.wav", "ref": "index क्या है", "hyp": "index क्या है"}
+{"audio": "audio/hinglish_validation_000054.wav", "ref": "index database table में records को खोजने और क्रमबद्ध करने के लिए एक तेज़ तरीका है", "hyp": "index database table में records को खोजने और क्रमबद्ध करने के लिए एक तेज़ तरीका है"}
+{"audio": "audio/hinglish_validation_000055.wav", "ref": "हम table में एक field या कई fields को चुन सकते हैं जिसमें records के क्रमबद्ध की आवश्यकता है", "hyp": "हम table में एक field या कई fields को चुन सकते हैं जिसमें records के क्रमबद्ध की आवश्यकता है"}
+{"audio": "audio/hinglish_validation_000056.wav", "ref": "index चुनित field या fields पर आधारित records के location स्थान को संचित करता है", "hyp": "index चुनित field या fields पर आधारित records के location को संचित करता है"}
+{"audio": "audio/hinglish_validation_000057.wav", "ref": "अतः data पाने के लिए base index का इस्तेमाल करते हुए सीधा data के location पर जा सकता है", "hyp": "अतः data पाने के लिए base index का इस्तेमाल करते हुए सीधा data के location पर जा सकता है"}
+{"audio": "audio/hinglish_validation_000058.wav", "ref": "अतः data खोजने के लिए सारे records के scanning की अपेक्षा यह काफी तेज़ है", "hyp": "अतः data खोजने के लिए कई सारे records के scanning की अपेक्षा यह काफी तेज़ है"}
+{"audio": "audio/hinglish_validation_000059.wav", "ref": "table की primary की स्वतः ही indexed क्रमबद्ध हो जाती है", "hyp": "table की primary की स्वतः ही indexed हो जाती है"}
+{"audio": "audio/hinglish_validation_000060.wav", "ref": "change password  ट्यूटोरियल के दूसरे भाग में आपका स्वागत है पिछले में हमने सीखा कि चेक कैसे करें यदि हमारा फार्म सब्मिट हो गया है", "hyp": "change password tutorial के दूसरे भाग में आपका स्वागत है पिछले में हमने सीखा कि check कैसे करें यदि हमारा form submit हो गया है"}
+{"audio": "audio/hinglish_validation_000061.wav", "ref": "हमें यहाँ हमारी डेटा वेल्यू मिली है", "hyp": "हमें यहाँ हमारी data वैल्यू मिली है"}
+{"audio": "audio/hinglish_validation_000062.wav", "ref": "कृपया याद रखें कि हमारे डेटाबेस के अंदर हमारे पासवर्डस एन्क्रिप्ट हैं", "hyp": "कृपया याद रखें कि हमारे database के अंदर हमारे passwords encrypted हैं"}
+{"audio": "audio/hinglish_validation_000063.wav", "ref": "अतः जैसे ही ये फील्ड्स अंदर आ रहे हैं मैं उनको एक md 5 hash में एन्क्रिप्ट करूँगा", "hyp": "अतः जैसे ही ये fields अन्दर आ रहे हैं मैं उनको एक md5h में इनक्रिप्ट करूँगा"}
+{"audio": "audio/hinglish_validation_000064.wav", "ref": "सुनिश्चित कर लें कि आपने कोष्ठक डालें हैं", "hyp": "संस्चित कर लें कि आपने कोष्ठक डाले हैं"}
+{"audio": "audio/hinglish_validation_000065.wav", "ref": "मैंने जो यहाँ चिन्हांकित किया है हमारा पैरामीटर है", "hyp": "मैंने जो यहाँ चिनांकित किया है हमारा पैरामीट के लिए जाँके लिए"}
+{"audio": "audio/hinglish_validation_000066.wav", "ref": "अतः यहाँ हमारे पास हमारे md5 एन्क्रिप्टेड पासवर्डस होंगे", "hyp": "अतः यहाँ हमारे पास हमारे  md5  इन्क्रिप्टरेड पास है"}
+{"audio": "audio/hinglish_validation_000067.wav", "ref": "हमें यह फील्ड चेक करने की आवश्यकता होगी यह देखने के लिए कि वे मौजूद हैं या नहीं", "hyp": "हमें यह field check करने का आवश्यकता होगी यह देखने के लिए कि वे मौजूद है या नहीं"}
+{"audio": "audio/hinglish_validation_000068.wav", "ref": "फिलहालजब हम अपना फॉर्म सब्मिट करते हैं हम देखते हैं कि वास्तव में कुछ नहीं हुआ", "hyp": "अब अपना form submit करते हैं हम देखते हैं कि वास्तव में कुछ नहीं हुआ"}
+{"audio": "audio/hinglish_validation_000069.wav", "ref": "पहले मैं लिखूँगा check password against db और फिर हम हमारे डेटाबेस से कनेक्ट होंगे", "hyp": "पहले मैं लिखूँगा check password against db"}
+{"audio": "audio/hinglish_validation_000070.wav", "ref": "creating dummy content पर spoken tutorial में आपका स्वागत है", "hyp": "creating dummy content पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_validation_000071.wav", "ref": "इस tutorial में हम devel module उपयोग करके dummy कंटेंट बनाना सीखेंगे", "hyp": "इस tutorial में हम devel module उपयोग करके dummy content बनाना सीखेंगे"}
+{"audio": "audio/hinglish_validation_000072.wav", "ref": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ ubuntu operating system drupal 8 और firefox वेब ब्राउज़र आप अपनी पसंद का कोई भी वेब ब्राउज़र उपयोग कर सकते हैं", "hyp": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ उबंटु ऑपरेटिंग सिस्टम drupal 8 और firefox वेब ब्राउजर आप अपनी पसंद का कोई भी वेब ब्राउजर उपयोग कर सकते हैं"}
+{"audio": "audio/hinglish_validation_000073.wav", "ref": "drupal site बनाते समय हमें एक चीज़ की ज़रुरत है जो है बहुत सारा कंटेंट यह हमारी layouts views और designs को समझने में मदद करेगा", "hyp": "इस tutorial में एक ट्यूप्ल site बनाते समय हमें एक चीज़ की ज़रुरत है जो है बहुत सारा कंटेंट यह है हमारी लेआउट्स व्यूज़ और डिज़ाइंस को समझने में मदद करेगा"}
+{"audio": "audio/hinglish_validation_000074.wav", "ref": "आदर्श रूप से हमें वास्तविक कंटेंट नहीं उपयोग करना चाहिए मानिये हमें एक कंटेंट type या एक field बदलने की ज़रुरत है", "hyp": "इस tutorial में इस tutorial के लिए एक यूटोरियल बदलने की ज़रूरत है"}
+{"audio": "audio/hinglish_validation_000075.wav", "ref": "समस्या ये है कि हमें इसमें जाना पड़ता है और वास्तविक कंटेंट को edit करना पड़ता है", "hyp": "हम इसमें जाना पड़ता है और वास्तविक कंटेंट को edit करना पड़ता है"}
+{"audio": "audio/hinglish_validation_000076.wav", "ref": "लेकिन यह step बहुत महत्वपूर्ण है हमें अपने कंटेंट के प्रकार को जाँचने की ज़रुरत हैं कि जैसा हम चाहते हैं वैसा वे काम कर रहे हैं या नही", "hyp": "हमें अपने content के प्रकार को जार्चने की ज़रुरत है कि जैसा हम चाहते हैं वैसा वे काम कर रहे हैं ये नहीं है"}
+{"audio": "audio/hinglish_validation_000077.wav", "ref": "अभी तक हमने fields के कुछ प्रकार ही कवर किये हैं", "hyp": "अभी तक हमने fields के कुछ प्रकार ही covered किये हैं"}
+{"audio": "audio/hinglish_validation_000078.wav", "ref": "यहाँ हमारा cincinnati node है cincinnati group meetings के लिए शुल्क चाहता है", "hyp": "यहाँ हमारा सेंसनेटि नोड है सेंसनेटिक रुप्ट मीटिंग के लिए शुल्क जाता है"}
+{"audio": "audio/hinglish_validation_000079.wav", "ref": "औए वे इसको site पर रखना चाहते हैं", "hyp": "और वे इसको site पर रखना चाहते हैं"}
+{"audio": "audio/hinglish_validation_000080.wav", "ref": "नमस्कार filing a workpiece  फाइलिंग अ वर्कपीस के स्पोकन ट्यूटोरियल में आपका स्वागत है", "hyp": "नमस्कार filing a work piece के spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_validation_000081.wav", "ref": "इस tutorial में हम निम्न सीखेंगे", "hyp": "इस tutorial में हम निम्न सीखेंगे"}
+{"audio": "audio/hinglish_validation_000082.wav", "ref": "फाइलिंग क्या है", "hyp": "filing क्या है"}
+{"audio": "audio/hinglish_validation_000083.wav", "ref": "फाइलिंग में उपयोग के लिए अनेक टूल्स", "hyp": "filing में उपयोग के लिए अनेक tools"}
+{"audio": "audio/hinglish_validation_000084.wav", "ref": "फाइलिंग के भिन्न प्रकार", "hyp": "filing के भिन्न प्रकार"}
+{"audio": "audio/hinglish_validation_000085.wav", "ref": "एक वर्कपीस को कैसे फ़ाइल करें", "hyp": "एक workpiece को कैसे file करें"}
+{"audio": "audio/hinglish_validation_000086.wav", "ref": "और फाइलिंग करते समय सामान्य गलतियाँ", "hyp": "filing करते समय"}
+{"audio": "audio/hinglish_validation_000087.wav", "ref": "इस ट्यूटोरियल के लिए हमें निम्न की आवश्यकता है", "hyp": "इस tutorial के लिए हमें निम्न की आवश्यकता है"}
+{"audio": "audio/hinglish_validation_000088.wav", "ref": "एक फाइलफ़ाइल किये जाने के लिए वर्कपीस", "hyp": "एक file file किये जाने के लिए walk piece"}
+{"audio": "audio/hinglish_validation_000089.wav", "ref": "वर्कपीस को पकड़ने के लिए बेंच वाइस", "hyp": "workpiece को पकड़ने के लिए bench wise"}
+{"audio": "audio/hinglish_validation_000090.wav", "ref": "inspection and comparison of git पर spoken tutorial में आपका स्वागत है", "hyp": "inspection and comparison of git पर स्पोकन ट्यूटोरियल में आपका स्वागत है"}
+{"audio": "audio/hinglish_validation_000091.wav", "ref": "इस tutorial में हम निम्न करना सीखेंगे:", "hyp": "इस tutorial में हम निम्न करना सीखेंगे"}
+{"audio": "audio/hinglish_validation_000092.wav", "ref": "इस tutorial के लिए मैं उपयोग कर रही हूँ", "hyp": "इस tutorial के लिए मैं उपयोग कर रही हूँ"}
+{"audio": "audio/hinglish_validation_000093.wav", "ref": "आप अपनी पसंद का कोई भी टेक्स्ट editor उपयोग कर सकते हैं", "hyp": "आप अपनी पसंद का कोई भी टेक्स्ट editor उपयोग कर सकते हैं"}
+{"audio": "audio/hinglish_validation_000094.wav", "ref": "इस tutorial के अनुसरण के लिए आपको terminal पर रन होने वाली लिनक्स commands की जानकारी होनी चाहिए", "hyp": "इस tutorial के अनुसरण के लिए आपको terminal पर रन होने वाली लिनक्स commands की जानकारी होनी चाहिए"}
+{"audio": "audio/hinglish_validation_000095.wav", "ref": "यदि नहीं तो सम्बंधित लिनक्स tutorials के लिए कृपया हमारी website पर जाएँ", "hyp": "यदि नहीं तो सम्बंधित लिनक्स tutorials के लिए कृपया हमारी website पर जाएँ"}
+{"audio": "audio/hinglish_validation_000096.wav", "ref": "अब git diff command से शुरू करते हैं", "hyp": "अब git diff command से शुरू करते हैं"}
+{"audio": "audio/hinglish_validation_000097.wav", "ref": "यह command files के वर्तमान status के बदलावों को दिखाएगी", "hyp": "यह command files के वर्तमान status के बदलावकों दिखाएगी"}
+{"audio": "audio/hinglish_validation_000098.wav", "ref": "अब मैं आपको दिखाऊँगी यह कैसे ctrl करता है terminal खोलने के लिए ctrl + alt + t दबाएँ", "hyp": "अब मैं आपको दिखाऊँगी यह कैसे कार्य करता है terminal खोलने के लिए ctrl alt t दबाएँ"}
+{"audio": "audio/hinglish_validation_000099.wav", "ref": "हम अपनी git repository mywebpage पर जायेंगे जो हमने पहले बनाई", "hyp": "हम अपने git repository mywebpage पर जाएँगे जो हमने पहले बनाई"}

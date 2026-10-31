@@ -1,0 +1,240 @@
+{"id": "m001", "voice": "hi-IN-SwaraNeural", "ref": "आपको Paracetamol 650 mg दिन में तीन बार लेनी है", "hyp": "आपको पैरासीतमॉल 650 मिल्ली ग्राम दिन में 3 बार लेनी हैं।"}
+{"id": "m001", "voice": "hi-IN-MadhurNeural", "ref": "आपको Paracetamol 650 mg दिन में तीन बार लेनी है", "hyp": "आपको पारासीट मौल 650 मिल्ली ग्राम दिन में तीन बार लेनी हैं"}
+{"id": "m002", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को तीन दिन से बुखार और सिर दर्द है", "hyp": "मरीस को तीन दिन से बुखार और सिर दर्ध है"}
+{"id": "m002", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को तीन दिन से बुखार और सिर दर्द है", "hyp": "मरीस को तीन दिन से बुखार और सिर दर्ध है"}
+{"id": "m003", "voice": "hi-IN-SwaraNeural", "ref": "Metformin 500 mg सुबह और शाम खाने के बाद लीजिए", "hyp": "Medformin 500 mg सुब्ध और शाम खाने के बाद लिजिये"}
+{"id": "m003", "voice": "hi-IN-MadhurNeural", "ref": "Metformin 500 mg सुबह और शाम खाने के बाद लीजिए", "hyp": "metformin 500 mg सुबह और शाम खाने के बाद लिजिये"}
+{"id": "m004", "voice": "hi-IN-SwaraNeural", "ref": "आपका blood pressure 140 by 90 आया है", "hyp": "आपका ब्लाड प्रेशर एक सुर चाईलीस भाई नब्भे आया है"}
+{"id": "m004", "voice": "hi-IN-MadhurNeural", "ref": "आपका blood pressure 140 by 90 आया है", "hyp": "आपका ब्लड प्रेशर एक सूचालीस भाई नब्डे आया है"}
+{"id": "m005", "voice": "hi-IN-SwaraNeural", "ref": "Amoxicillin 500 mg हर आठ घंटे में पाँच दिन तक लेनी है", "hyp": "Amoxy-Celan 500 mg रज आट गण्टे में 5 दिन तक लेनी हैं।"}
+{"id": "m005", "voice": "hi-IN-MadhurNeural", "ref": "Amoxicillin 500 mg हर आठ घंटे में पाँच दिन तक लेनी है", "hyp": "Amoxy-Celin 500 mg रण अर्ट गण्टे में 5 दिन तक लेनी हैं।"}
+{"id": "m006", "voice": "hi-IN-SwaraNeural", "ref": "उसे सीने में दर्द और साँस लेने में तकलीफ़ है", "hyp": "उसे सीने में दर्द और सान्स लेने में तकलीफ हैं"}
+{"id": "m006", "voice": "hi-IN-MadhurNeural", "ref": "उसे सीने में दर्द और साँस लेने में तकलीफ़ है", "hyp": "उसे सीने में दर्द और सास लेने में तकलीफ है।"}
+{"id": "m007", "voice": "hi-IN-SwaraNeural", "ref": "आपकी HbA1c 7.2 आई है", "hyp": "आपकी HBA 1C 7-2 आई है"}
+{"id": "m007", "voice": "hi-IN-MadhurNeural", "ref": "आपकी HbA1c 7.2 आई है", "hyp": "आपकी HbA1C7-2 आई है"}
+{"id": "m008", "voice": "hi-IN-SwaraNeural", "ref": "Azithromycin 250 mg रोज़ एक गोली तीन दिन तक लीजिए", "hyp": "असित्रोमाइसिन्थाइ सौ मिल्लिग्राम रोज एक गोली तीन दिन तक लिजिये"}
+{"id": "m008", "voice": "hi-IN-MadhurNeural", "ref": "Azithromycin 250 mg रोज़ एक गोली तीन दिन तक लीजिए", "hyp": "ऐसित्रोमाइसिन धाई सौ मिल्ली ग्राम रोज एक गोली तीन दिन तक लिजिये"}
+{"id": "m009", "voice": "hi-IN-SwaraNeural", "ref": "पेट में दर्द और उल्टी की शिकायत है", "hyp": "पेट में दर्द और उल्टी की शिकायत हैं"}
+{"id": "m009", "voice": "hi-IN-MadhurNeural", "ref": "पेट में दर्द और उल्टी की शिकायत है", "hyp": "पेट में दर्द और उल्टी की शिकायत है"}
+{"id": "m010", "voice": "hi-IN-SwaraNeural", "ref": "Pantoprazole 40 mg सुबह खाली पेट लीजिए", "hyp": "पान्टो प्रजोल 40 मिल्ली ग्राम सुबह खाली पेट लिजिये"}
+{"id": "m010", "voice": "hi-IN-MadhurNeural", "ref": "Pantoprazole 40 mg सुबह खाली पेट लीजिए", "hyp": "पान्टो प्रजोल 40 मिल्लि ग्राम सुबह खाली पेट लिजिये"}
+{"id": "m011", "voice": "hi-IN-SwaraNeural", "ref": "आपका haemoglobin 10.5 है जो थोड़ा कम है", "hyp": "आपका हीमो ग्लोबिन 10 दशम्ल और 5 है जो थोड़ा कम है"}
+{"id": "m011", "voice": "hi-IN-MadhurNeural", "ref": "आपका haemoglobin 10.5 है जो थोड़ा कम है", "hyp": "आपका हीमोगलोबिन 10 दशम्लव 5 है जो थोरा कम है"}
+{"id": "m012", "voice": "hi-IN-SwaraNeural", "ref": "Cetirizine 10 mg रात को सोने से पहले लीजिए", "hyp": "सेतिरसीन 10 मिल्ली ग्राम रात को सोने से पहले लिजिये"}
+{"id": "m012", "voice": "hi-IN-MadhurNeural", "ref": "Cetirizine 10 mg रात को सोने से पहले लीजिए", "hyp": "सतेरेजीन 10 मिल्ली ग्राम रात को सोने से पहले लिजिये"}
+{"id": "m013", "voice": "hi-IN-SwaraNeural", "ref": "खाँसी और गले में खराश दो हफ़्ते से है", "hyp": "खासी और गले में खराश दो हफते से हैं"}
+{"id": "m013", "voice": "hi-IN-MadhurNeural", "ref": "खाँसी और गले में खराश दो हफ़्ते से है", "hyp": "कासी और गले में खराश दो हफते से हैं"}
+{"id": "m014", "voice": "hi-IN-SwaraNeural", "ref": "Insulin 10 units सुबह और 8 units रात को लगाइए", "hyp": "इन्सुलिन दस यूनिट सुब्ह और आट यूनिट स रात को लगाये"}
+{"id": "m014", "voice": "hi-IN-MadhurNeural", "ref": "Insulin 10 units सुबह और 8 units रात को लगाइए", "hyp": "insulin 10 units सबह और 8 units रात को लगाये"}
+{"id": "m015", "voice": "hi-IN-SwaraNeural", "ref": "आपका sugar fasting 126 आया है", "hyp": "आपका sugar fasting एक सुर चबबीस आया है"}
+{"id": "m015", "voice": "hi-IN-MadhurNeural", "ref": "आपका sugar fasting 126 आया है", "hyp": "आपका sugar fasting 126 आया है"}
+{"id": "m016", "voice": "hi-IN-SwaraNeural", "ref": "Ibuprofen 400 mg दर्द होने पर ही लीजिए", "hyp": "ibuProfen 400 mg दर्ध होने पर ही लिजिये"}
+{"id": "m016", "voice": "hi-IN-MadhurNeural", "ref": "Ibuprofen 400 mg दर्द होने पर ही लीजिए", "hyp": "ibuProfen 400 mg दर्ध होने पर ही लिजिये"}
+{"id": "m017", "voice": "hi-IN-SwaraNeural", "ref": "बच्चे को दो दिन से दस्त हो रहे हैं", "hyp": "बच्चे को दो दिन से दस्थ हो रहे हैं"}
+{"id": "m017", "voice": "hi-IN-MadhurNeural", "ref": "बच्चे को दो दिन से दस्त हो रहे हैं", "hyp": "बच्चे को दो दिन से दस्थ हो रही हैं"}
+{"id": "m018", "voice": "hi-IN-SwaraNeural", "ref": "Atorvastatin 10 mg रोज़ रात को एक गोली लीजिए", "hyp": "अटोविस टेटिन दस मिल्ली ग्राम रोज रात को एक गोली लिजिये"}
+{"id": "m018", "voice": "hi-IN-MadhurNeural", "ref": "Atorvastatin 10 mg रोज़ रात को एक गोली लीजिए", "hyp": "Ator Vest 8 in 10 mg रोज रात को एक गोली लिजिये"}
+{"id": "m019", "voice": "hi-IN-SwaraNeural", "ref": "आपको X-ray और CBC test करवाना होगा", "hyp": "आपको X-ray और CBC तेस्ट करवाना होगा"}
+{"id": "m019", "voice": "hi-IN-MadhurNeural", "ref": "आपको X-ray और CBC test करवाना होगा", "hyp": "आपको X-ray और CBC तेस्ट करवाना होगा"}
+{"id": "m020", "voice": "hi-IN-SwaraNeural", "ref": "Amlodipine 5 mg सुबह एक बार लीजिए", "hyp": "Amlaudapine 5 mg सुबा एक बार लिजिये"}
+{"id": "m020", "voice": "hi-IN-MadhurNeural", "ref": "Amlodipine 5 mg सुबह एक बार लीजिए", "hyp": "Amlodipine 5 mg सुबह एक बार लीजिये"}
+{"id": "m021", "voice": "hi-IN-SwaraNeural", "ref": "उन्हें चक्कर आ रहे हैं और कमज़ोरी महसूस होती है", "hyp": "उने चकरा रही हैं और कम्जोरी महसूस होती हैं"}
+{"id": "m021", "voice": "hi-IN-MadhurNeural", "ref": "उन्हें चक्कर आ रहे हैं और कमज़ोरी महसूस होती है", "hyp": "उन्हें चकरा रही हैं और कम्जोरी महसूस होती हैं"}
+{"id": "m022", "voice": "hi-IN-SwaraNeural", "ref": "Dolo 650 बुखार में दिन में दो बार से ज़्यादा मत लीजिए", "hyp": "दोलू चैसो पचास बुकार में दिन में दो बार से ज्यादा मत लिजिये"}
+{"id": "m022", "voice": "hi-IN-MadhurNeural", "ref": "Dolo 650 बुखार में दिन में दो बार से ज़्यादा मत लीजिए", "hyp": "दोलो चेसाउ पचास बुकार में दिन में दो बार से ज्यादा मत लिजिये"}
+{"id": "m023", "voice": "hi-IN-SwaraNeural", "ref": "आपकी creatinine 1.2 है जो थोड़ी ज़्यादा है", "hyp": "आपकी क्रियातनाइन एक दशम्लोव दो है जो थोड़ी ज्यादा है"}
+{"id": "m023", "voice": "hi-IN-MadhurNeural", "ref": "आपकी creatinine 1.2 है जो थोड़ी ज़्यादा है", "hyp": "आपकी क्रियातिनाइन एक दशम्लव दो है जो थोड़ी ज्यादा है"}
+{"id": "m024", "voice": "hi-IN-SwaraNeural", "ref": "Levothyroxine 50 mcg सुबह खाली पेट लीजिए", "hyp": "लेवो थाइरोक्सीन 50 MCG सुबा खाली पेट लिजिये"}
+{"id": "m024", "voice": "hi-IN-MadhurNeural", "ref": "Levothyroxine 50 mcg सुबह खाली पेट लीजिए", "hyp": "लेवो थाइरोक्सीन 50 एन्सी जी सुबह खाली पेट लिजिये"}
+{"id": "m025", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को जोड़ों में दर्द और सूजन है", "hyp": "मरीस को जोडों में दर्द और सुजन हैं"}
+{"id": "m025", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को जोड़ों में दर्द और सूजन है", "hyp": "मरीस को जोडों में दर्द और सूजन हैं"}
+{"id": "m026", "voice": "hi-IN-SwaraNeural", "ref": "Omeprazole 20 mg खाने से आधे घंटे पहले लीजिए", "hyp": "और मैं प्रजोल बीस मिल्लिग्राम खाने से आदे घंटे पहले लिजिये"}
+{"id": "m026", "voice": "hi-IN-MadhurNeural", "ref": "Omeprazole 20 mg खाने से आधे घंटे पहले लीजिए", "hyp": "ओमेप्राजोल बीस मिल्ली ग्राम खाने से आधे घंटे पहले लिजिये"}
+{"id": "m027", "voice": "hi-IN-SwaraNeural", "ref": "आपकी ECG और echo रिपोर्ट सामान्य है", "hyp": "आपकी ECG और ECOR REPORT सामान्य है"}
+{"id": "m027", "voice": "hi-IN-MadhurNeural", "ref": "आपकी ECG और echo रिपोर्ट सामान्य है", "hyp": "आपकी ECG और ECO report सामानिय है।"}
+{"id": "m028", "voice": "hi-IN-SwaraNeural", "ref": "Salbutamol inhaler 2 puff साँस फूलने पर लीजिए", "hyp": "CEL-butamol inhaler दो पफ सान्स फूलने पर लिजिये"}
+{"id": "m028", "voice": "hi-IN-MadhurNeural", "ref": "Salbutamol inhaler 2 puff साँस फूलने पर लीजिए", "hyp": "सालबुतामौल इन्हेलर दो पफ सास फूलने पर लिजिये"}
+{"id": "m029", "voice": "hi-IN-SwaraNeural", "ref": "दवा सात दिन तक लेनी है और फिर दोबारा दिखाइए", "hyp": "दवा साथ दिन तक लेनी है और फिर दोबारा दिखाये"}
+{"id": "m029", "voice": "hi-IN-MadhurNeural", "ref": "दवा सात दिन तक लेनी है और फिर दोबारा दिखाइए", "hyp": "दवा सात दिन तक लेनी है और फिर दोबारा दिखाये"}
+{"id": "m030", "voice": "hi-IN-SwaraNeural", "ref": "Ciprofloxacin 500 mg दिन में दो बार लीजिए", "hyp": "Ciprofloxacin 500 mg दिन में दो बार लीजिये"}
+{"id": "m030", "voice": "hi-IN-MadhurNeural", "ref": "Ciprofloxacin 500 mg दिन में दो बार लीजिए", "hyp": "Ciprofloxacin 500 mg दिन में दो बार लिजिये"}
+{"id": "m031", "voice": "hi-IN-SwaraNeural", "ref": "उसे पेशाब में जलन और बार बार पेशाब आने की शिकायत है", "hyp": "उसे पेशाब में जलन और बार बार पेशाब आने की शिकायत है"}
+{"id": "m031", "voice": "hi-IN-MadhurNeural", "ref": "उसे पेशाब में जलन और बार बार पेशाब आने की शिकायत है", "hyp": "उसे पेशाब में जलन और बार बार पेशाब आने की शिकायत है"}
+{"id": "m032", "voice": "hi-IN-SwaraNeural", "ref": "आपका TSH 6.8 आया है", "hyp": "आपका TSA 6.8 आया है"}
+{"id": "m032", "voice": "hi-IN-MadhurNeural", "ref": "आपका TSH 6.8 आया है", "hyp": "आपका TSH-86-108 आया है"}
+{"id": "m033", "voice": "hi-IN-SwaraNeural", "ref": "Aspirin 75 mg रोज़ एक बार दोपहर के खाने के बाद", "hyp": "अस्परिन 75 मिल्लि ग्राम रोज एक बार दोपहर के खाने के बाद"}
+{"id": "m033", "voice": "hi-IN-MadhurNeural", "ref": "Aspirin 75 mg रोज़ एक बार दोपहर के खाने के बाद", "hyp": "अस्परिन 75 मिल्ली ग्राम रोज एक बार दोपहर के खाने के बार"}
+{"id": "m034", "voice": "hi-IN-SwaraNeural", "ref": "गर्दन में दर्द और अकड़न है", "hyp": "गर्दन में दर्द और अकडन हैं"}
+{"id": "m034", "voice": "hi-IN-MadhurNeural", "ref": "गर्दन में दर्द और अकड़न है", "hyp": "गर्दन में दर्द और अकडन हैं"}
+{"id": "m035", "voice": "hi-IN-SwaraNeural", "ref": "Vitamin D 60000 units हफ़्ते में एक बार आठ हफ़्ते तक", "hyp": "वाईतामिन दी साथ हजार यूनिट्स हफते में एक बार आट हफते तक"}
+{"id": "m035", "voice": "hi-IN-MadhurNeural", "ref": "Vitamin D 60000 units हफ़्ते में एक बार आठ हफ़्ते तक", "hyp": "विटामिन दी साथ हजार यूनेट्स हफते में एक बार आट हफते तक"}
+{"id": "m036", "voice": "hi-IN-SwaraNeural", "ref": "आपका platelet count 1.5 lakh है", "hyp": "आपका प्लेट्लेट काउड एक दशम्लोफ पाँच लाक है"}
+{"id": "m036", "voice": "hi-IN-MadhurNeural", "ref": "आपका platelet count 1.5 lakh है", "hyp": "आपका प्लेटलेट काुंट एक दशम्लव पांच लाक है"}
+{"id": "m037", "voice": "hi-IN-SwaraNeural", "ref": "Prednisolone 20 mg सुबह नाश्ते के बाद पाँच दिन तक", "hyp": "20 mg नाश्ते के बाद पाच दिन तक"}
+{"id": "m037", "voice": "hi-IN-MadhurNeural", "ref": "Prednisolone 20 mg सुबह नाश्ते के बाद पाँच दिन तक", "hyp": "प्रेडनेसोलोन बीस मिल्ली ग्राम सुबह नाश्टे के भाग पांच दिन तक"}
+{"id": "m038", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को रात में खाँसी और घबराहट रहती है", "hyp": "मरीस को रात में खान्सी और घब्राहत रहती हैं"}
+{"id": "m038", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को रात में खाँसी और घबराहट रहती है", "hyp": "मरीज को रात में खासी और घब्राहत रहती हैं"}
+{"id": "m039", "voice": "hi-IN-SwaraNeural", "ref": "Losartan 50 mg सुबह एक गोली लीजिए", "hyp": "Lozatine 50 mg सुबा एक गोली लिजिये"}
+{"id": "m039", "voice": "hi-IN-MadhurNeural", "ref": "Losartan 50 mg सुबह एक गोली लीजिए", "hyp": "Lozarten 50 mg सुबह एक गोली लिजिये"}
+{"id": "m040", "voice": "hi-IN-SwaraNeural", "ref": "आपको कल सुबह खाली पेट blood test के लिए आना है", "hyp": "आपको कल सुबा खाली पेट ब्लाड तेस्ट के लिए आना है"}
+{"id": "m040", "voice": "hi-IN-MadhurNeural", "ref": "आपको कल सुबह खाली पेट blood test के लिए आना है", "hyp": "आपको कल सुब्भा खाली पेट ब्लाड तेस्ट के लिये आना है"}
+{"id": "g001", "voice": "hi-IN-SwaraNeural", "ref": "सिर दर्द के लिए Pantoprazole 40 mg रात को सोने से पहले लीजिए", "hyp": "सिर्ददर्थ के लिए पान्टो प्रजोल 40 मिल्लि ग्राम रात को सोने से पहले लिजिये"}
+{"id": "g001", "voice": "hi-IN-MadhurNeural", "ref": "सिर दर्द के लिए Pantoprazole 40 mg रात को सोने से पहले लीजिए", "hyp": "सिर दर्द के लिए पैंटो प्रजोल 40 मिल्ली ग्राम रात को सोने से पहले लिजिये"}
+{"id": "g002", "voice": "hi-IN-SwaraNeural", "ref": "आपका sugar fasting 126 आया है", "hyp": "आपका sugar fasting एक सुर चबबीस आया है"}
+{"id": "g002", "voice": "hi-IN-MadhurNeural", "ref": "आपका sugar fasting 126 आया है", "hyp": "आपका sugar fasting 126 आया है"}
+{"id": "g003", "voice": "hi-IN-SwaraNeural", "ref": "आपका creatinine 1 आया है", "hyp": "आपका क्रियातनाइन एक आया है"}
+{"id": "g003", "voice": "hi-IN-MadhurNeural", "ref": "आपका creatinine 1 आया है", "hyp": "आपका क्रियातेनाइन एक आया है"}
+{"id": "g004", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को थकान और सिर दर्द की शिकायत है", "hyp": "मरीस को थकान और सिर्दर्द की शिकायत है"}
+{"id": "g004", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को थकान और सिर दर्द की शिकायत है", "hyp": "मरीस को थकान और सिर दर्ट की शिकायत है"}
+{"id": "g005", "voice": "hi-IN-SwaraNeural", "ref": "Ondansetron 4 mg रात को सोने से पहले पाँच दिन तक लीजिए", "hyp": "अन्डान सिट्रोन चार मिल्लिग्राम रात को सोने से पहले पाँच दिन तक लिजिये"}
+{"id": "g005", "voice": "hi-IN-MadhurNeural", "ref": "Ondansetron 4 mg रात को सोने से पहले पाँच दिन तक लीजिए", "hyp": "अन्दान सट्रोन चार मिल्ली ग्राम रात को सोने से पहले पांच दिन तक लिजिये"}
+{"id": "g006", "voice": "hi-IN-SwaraNeural", "ref": "आपकी रिपोर्ट में blood pressure 150 by 95 है", "hyp": "आपकी रपोट में ब्लाट प्रेशर देड सो बाई पचान्वे हैं"}
+{"id": "g006", "voice": "hi-IN-MadhurNeural", "ref": "आपकी रिपोर्ट में blood pressure 150 by 95 है", "hyp": "आपकी रिपोट में ब्लाड प्रशर देड सौ भाई पचानवे हैं।"}
+{"id": "g007", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Atorvastatin 10 mg दिन में दो बार एक हफ़्ते तक दीजिए", "hyp": "मरीज को अटोविस्टेटन 10 मिल्ली ग्राम दिन में दो बार एक हफते तक दीजिये"}
+{"id": "g007", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Atorvastatin 10 mg दिन में दो बार एक हफ़्ते तक दीजिए", "hyp": "मरीज को आटोर वेस्टे टिन दस मिल्ली ग्राम दिन में दो बार एक हफते तक दीजिये"}
+{"id": "g008", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को पेट में दर्द और कमज़ोरी की शिकायत है", "hyp": "मरीस को पेट में दर्द और कम्जोरी की शिकायत है"}
+{"id": "g008", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को पेट में दर्द और कमज़ोरी की शिकायत है", "hyp": "मरीस को पेट में दर्द और कम्जोरी की शिकायत है"}
+{"id": "g009", "voice": "hi-IN-SwaraNeural", "ref": "आपका TSH 8 आया है", "hyp": "आपका TSH 8 आया है"}
+{"id": "g009", "voice": "hi-IN-MadhurNeural", "ref": "आपका TSH 8 आया है", "hyp": "आपका TSH-8 आया है"}
+{"id": "g010", "voice": "hi-IN-SwaraNeural", "ref": "आपको Domperidone 10 mg रात को सोने से पहले लेनी है", "hyp": "आपको डोम्परेडोन 10mg रात को सोने से पहले लेनी है"}
+{"id": "g010", "voice": "hi-IN-MadhurNeural", "ref": "आपको Domperidone 10 mg रात को सोने से पहले लेनी है", "hyp": "आपको डौम्परेडोन 10 मिल्ली ग्राम रात को सोने से पहले लेनी हैं"}
+{"id": "g011", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Domperidone 10 mg दिन में तीन बार दस दिन तक दीजिए", "hyp": "मरीज को डोम्परिडोन 10mg दिन में 3 बार 10 दिन तक दीजिये"}
+{"id": "g011", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Domperidone 10 mg दिन में तीन बार दस दिन तक दीजिए", "hyp": "मरीस को डोम्परिडोन 10mg दिन में 3 बार 10 दिन तक दीजिये"}
+{"id": "g012", "voice": "hi-IN-SwaraNeural", "ref": "आपकी रिपोर्ट में cholesterol 220 है", "hyp": "आपकी रिपोट में कलेस्टरॉल 220 है"}
+{"id": "g012", "voice": "hi-IN-MadhurNeural", "ref": "आपकी रिपोर्ट में cholesterol 220 है", "hyp": "आपकी रिपोर्ट में कौलेस्टरॉल 220 हैं"}
+{"id": "g013", "voice": "hi-IN-SwaraNeural", "ref": "आपकी रिपोर्ट में platelet count 150000 है", "hyp": "आपकी रपोट में प्लेक्लेट काउड देड लाक है"}
+{"id": "g013", "voice": "hi-IN-MadhurNeural", "ref": "आपकी रिपोर्ट में platelet count 150000 है", "hyp": "आपकी रिपोर्ट में प्लेटलेट काउट बेड्लाक है"}
+{"id": "g014", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Rabeprazole 20 mg दिन में तीन बार तीन दिन तक दीजिए", "hyp": "मरीज को रेप रिजोल बीस मिल्लिग्राम दिन में तीन बार तीन दिन तक दीजिये"}
+{"id": "g014", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Rabeprazole 20 mg दिन में तीन बार तीन दिन तक दीजिए", "hyp": "मरीस को रेप रेजोल बीस मिल्ली ग्राम दिन में तीन बार तीन दिन तक दीजिये"}
+{"id": "g015", "voice": "hi-IN-SwaraNeural", "ref": "आपकी रिपोर्ट में TSH 8 है", "hyp": "आपकी रपोट में TSH-8 है"}
+{"id": "g015", "voice": "hi-IN-MadhurNeural", "ref": "आपकी रिपोर्ट में TSH 8 है", "hyp": "आपकी रिपोट में TSH-8 है"}
+{"id": "g016", "voice": "hi-IN-SwaraNeural", "ref": "जोड़ों में दर्द के लिए Glimepiride 2 mg रात को सोने से पहले लीजिए", "hyp": "जोडू में दर्थ के लिए गलाइम पीराइट 2 मिल्ली ग्राम रात को सोने से पहले लिजिये"}
+{"id": "g016", "voice": "hi-IN-MadhurNeural", "ref": "जोड़ों में दर्द के लिए Glimepiride 2 mg रात को सोने से पहले लीजिए", "hyp": "जोडो में दर्ट के लिये गलामपिराइड 2 मिल्ली ग्राम रात को सोने से पहले लिजिये"}
+{"id": "g017", "voice": "hi-IN-SwaraNeural", "ref": "Clopidogrel 75 mg हर आठ घंटे में पाँच दिन तक लीजिए", "hyp": "Clopidogrel 75 mg रण 8 गण्टे में 5 दिन तक लिजिये"}
+{"id": "g017", "voice": "hi-IN-MadhurNeural", "ref": "Clopidogrel 75 mg हर आठ घंटे में पाँच दिन तक लीजिए", "hyp": "Clawpidogrel 75 mg रण 8 गण्टे में 5 दिन तक लिजिये"}
+{"id": "g018", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को थकान और बुखार की शिकायत है", "hyp": "मरीस को थकान और बुकार की शिकायत है"}
+{"id": "g018", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को थकान और बुखार की शिकायत है", "hyp": "मरीस को थकान और बुकार की शिकायत है"}
+{"id": "g019", "voice": "hi-IN-SwaraNeural", "ref": "आपकी रिपोर्ट में HbA1c 7 है", "hyp": "आपकी रपोट में HBA एक सी साथ है"}
+{"id": "g019", "voice": "hi-IN-MadhurNeural", "ref": "आपकी रिपोर्ट में HbA1c 7 है", "hyp": "आपकी रपूर्ट में HbA1C7 है।"}
+{"id": "g020", "voice": "hi-IN-SwaraNeural", "ref": "आपका platelet count 150000 आया है", "hyp": "आपका प्लेट्लेट काईट देड लाख आया है"}
+{"id": "g020", "voice": "hi-IN-MadhurNeural", "ref": "आपका platelet count 150000 आया है", "hyp": "आपका प्लेट्लेट काउट देडलाक आया है"}
+{"id": "g021", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Amlodipine 5 mg रात को सोने से पहले तीन दिन तक दीजिए", "hyp": "मरीज को अमलोडपाइन 5 मिल्लिग्राम रात को सोने से पहले 3 दिन तक दीजिये"}
+{"id": "g021", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Amlodipine 5 mg रात को सोने से पहले तीन दिन तक दीजिए", "hyp": "मरीस को अमलोडपाइन 5 मिल्ली ग्राम रात को सोने से पहले 3 दिन तक दीजिये"}
+{"id": "g022", "voice": "hi-IN-SwaraNeural", "ref": "जोड़ों में दर्द के लिए Doxycycline 100 mg दर्द होने पर लीजिए", "hyp": "जोडों में दर्ध के लिए डोक्सी साइकलिन एक सू अमिल्ली ग्राम दर्ध होने पर लिजिये"}
+{"id": "g022", "voice": "hi-IN-MadhurNeural", "ref": "जोड़ों में दर्द के लिए Doxycycline 100 mg दर्द होने पर लीजिए", "hyp": "जोडो में दर्द के लिए डौक्सी साइतलिन एक सू मिल्ली ग्राम दर्द होने पर लिजिये।"}
+{"id": "g023", "voice": "hi-IN-SwaraNeural", "ref": "साँस लेने में तकलीफ़ के लिए Paracetamol 650 mg दिन में दो बार लीजिए", "hyp": "सांस लेने में तकलीफ के लिए पैरसीतमॉल 650 मिल्ली ग्राम दिन में दो बार लिजिये"}
+{"id": "g023", "voice": "hi-IN-MadhurNeural", "ref": "साँस लेने में तकलीफ़ के लिए Paracetamol 650 mg दिन में दो बार लीजिए", "hyp": "सास लेने में ततलीफ के लिए परासीट मौल 650 मिल्ली ग्राम दिन में दो बार लिजिये"}
+{"id": "g024", "voice": "hi-IN-SwaraNeural", "ref": "Cefixime 200 mg दिन में तीन बार दस दिन तक लीजिए", "hyp": "सेफिक साइम 200 मिल्लि ग्राम दिन में 3 बार 10 दिन तक लिजिये"}
+{"id": "g024", "voice": "hi-IN-MadhurNeural", "ref": "Cefixime 200 mg दिन में तीन बार दस दिन तक लीजिए", "hyp": "सेफिक साइम 200 मिल्ली ग्राम दिन में 3 बार 10 दिन तक लिजिये"}
+{"id": "g025", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को भूख न लगना और सिर दर्द की शिकायत है", "hyp": "मरीस को भूख ना लगना और सिर दर्थ की शिकायत है"}
+{"id": "g025", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को भूख न लगना और सिर दर्द की शिकायत है", "hyp": "मरीस को भूख न लगना और सिर दर्ट की शिकायत है"}
+{"id": "g026", "voice": "hi-IN-SwaraNeural", "ref": "पीठ दर्द और कमज़ोरी कब से है", "hyp": "पीथ दर्द और कम्जोरी कप से है"}
+{"id": "g026", "voice": "hi-IN-MadhurNeural", "ref": "पीठ दर्द और कमज़ोरी कब से है", "hyp": "पीट दर्द और कम्जोरी कप से हैं"}
+{"id": "g027", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Insulin 12 units सुबह खाली पेट दीजिए", "hyp": "मरीस को इन्सुलिन बारा यूनिट सुबा खाली पेट दीजिये"}
+{"id": "g027", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Insulin 12 units सुबह खाली पेट दीजिए", "hyp": "मरीस को इनसुलिन बारह यूनिट्स सुबह खाली पेट दीजिये"}
+{"id": "g028", "voice": "hi-IN-SwaraNeural", "ref": "साँस लेने में तकलीफ़ और सीने में दर्द कब से है", "hyp": "सांस लेने में तकलीफ और सीने में दर्थ कप से हैं"}
+{"id": "g028", "voice": "hi-IN-MadhurNeural", "ref": "साँस लेने में तकलीफ़ और सीने में दर्द कब से है", "hyp": "सास लेने में तकलीफ और सीने में दर्थ कप से हैं"}
+{"id": "g029", "voice": "hi-IN-SwaraNeural", "ref": "Pantoprazole 20 mg दिन में दो बार पाँच दिन तक लीजिए", "hyp": "पान्टो प्रजोल बीस मिल्लिग्राम दिन में दो बार पाच दिन तक लिजिये"}
+{"id": "g029", "voice": "hi-IN-MadhurNeural", "ref": "Pantoprazole 20 mg दिन में दो बार पाँच दिन तक लीजिए", "hyp": "पान्टो प्रजोल बीस मिल्ली ग्राम दिन में दो बार पाँच दिन तक लिजी"}
+{"id": "g030", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Paracetamol 650 mg दिन में दो बार एक हफ़्ते तक दीजिए", "hyp": "मरीस को पैरसीतमॉल 650 मिल्ली ग्राम दिन में दो बार एक हफते तक दीजिये"}
+{"id": "g030", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Paracetamol 650 mg दिन में दो बार एक हफ़्ते तक दीजिए", "hyp": "मरीस को परासीट मौल 650 मिल्ली ग्राम दिन में दो बार एक हफते तक दीजिये"}
+{"id": "g031", "voice": "hi-IN-SwaraNeural", "ref": "थकान के लिए Paracetamol 500 mg हर आठ घंटे में लीजिए", "hyp": "थकान के लिए पैरसीतमॉल 500 मिल्लिग्राम रहाँ 8 गण्टे में लिजिये"}
+{"id": "g031", "voice": "hi-IN-MadhurNeural", "ref": "थकान के लिए Paracetamol 500 mg हर आठ घंटे में लीजिए", "hyp": "खकान के लिये पैरासीट मॉल 500 मिल्ली ग्राम हर 8 गणटे में लिजिये"}
+{"id": "g032", "voice": "hi-IN-SwaraNeural", "ref": "आपका HbA1c 6 आया है", "hyp": "आपका एजबीए एक सीच है आया है"}
+{"id": "g032", "voice": "hi-IN-MadhurNeural", "ref": "आपका HbA1c 6 आया है", "hyp": "आपका HBA 1C6 आया है"}
+{"id": "g033", "voice": "hi-IN-SwaraNeural", "ref": "पीठ दर्द और दस्त कब से है", "hyp": "पीथ दर्द और दस्त कप से है"}
+{"id": "g033", "voice": "hi-IN-MadhurNeural", "ref": "पीठ दर्द और दस्त कब से है", "hyp": "पीट दर्ध और दस्त कप से हैं"}
+{"id": "g034", "voice": "hi-IN-SwaraNeural", "ref": "गले में खराश और चक्कर कब से है", "hyp": "गले में खराश और चक्कर कब से हैं"}
+{"id": "g034", "voice": "hi-IN-MadhurNeural", "ref": "गले में खराश और चक्कर कब से है", "hyp": "गले में खराश और चकर कब से हैं"}
+{"id": "g035", "voice": "hi-IN-SwaraNeural", "ref": "Ibuprofen 200 mg रोज़ एक बार पाँच दिन तक लीजिए", "hyp": "ibuProfen 200 mg रोज एक बार पाच दिन तक लिजिये"}
+{"id": "g035", "voice": "hi-IN-MadhurNeural", "ref": "Ibuprofen 200 mg रोज़ एक बार पाँच दिन तक लीजिए", "hyp": "ibuProfen 200 mg रोज एक बार पाँच दिन तक लिजिये"}
+{"id": "g036", "voice": "hi-IN-SwaraNeural", "ref": "Omeprazole 20 mg सुबह खाने के बाद लीजिए", "hyp": "और में प्रजोल बीस मिल्लिग्राम सूबह खाने के बाद लिजिये"}
+{"id": "g036", "voice": "hi-IN-MadhurNeural", "ref": "Omeprazole 20 mg सुबह खाने के बाद लीजिए", "hyp": "अमेप्राजोल बीस मिल्ली ग्राम सुभह खाने के बाद लिजिये"}
+{"id": "g037", "voice": "hi-IN-SwaraNeural", "ref": "आपको Ondansetron 4 mg सुबह खाने के बाद तीन दिन तक लेनी है", "hyp": "आपको आुन्डान सिट्रोन चार मिल्लिग्राम सूबा खाने के भात तीन दिन तक लेनी हैं।"}
+{"id": "g037", "voice": "hi-IN-MadhurNeural", "ref": "आपको Ondansetron 4 mg सुबह खाने के बाद तीन दिन तक लेनी है", "hyp": "आपको आुन्डान सट्रोन चार मिल्ली ग्राम सुभह खाने के भाद तीन दिन तक लेनी हैं।"}
+{"id": "g038", "voice": "hi-IN-SwaraNeural", "ref": "Montelukast 10 mg सुबह खाली पेट एक हफ़्ते तक लीजिए", "hyp": "Montelucast 10 mg सुबा खाली पेट एक हफते तक लिजिये"}
+{"id": "g038", "voice": "hi-IN-MadhurNeural", "ref": "Montelukast 10 mg सुबह खाली पेट एक हफ़्ते तक लीजिए", "hyp": "Monteliu Cast 10 mg सुभः खाली पेट एक हफ्ते तक लिजिये"}
+{"id": "g039", "voice": "hi-IN-SwaraNeural", "ref": "आपका HbA1c 7 आया है", "hyp": "आपका HBA 1C 7 आया है"}
+{"id": "g039", "voice": "hi-IN-MadhurNeural", "ref": "आपका HbA1c 7 आया है", "hyp": "आपका HBA 1C 7 आया है"}
+{"id": "g040", "voice": "hi-IN-SwaraNeural", "ref": "आपको Vitamin D 60000 units रोज़ एक बार दस दिन तक लेनी है", "hyp": "आपको वाईतामिन दी 60,000 यूनिट स रोज एक बार 10 दिन तक लेनी हैं"}
+{"id": "g040", "voice": "hi-IN-MadhurNeural", "ref": "आपको Vitamin D 60000 units रोज़ एक बार दस दिन तक लेनी है", "hyp": "आपको वाईतामिन दी 60,000 यूनेट्स रोज एक बार 10 दिन तक लेनी हैं।"}
+{"id": "g041", "voice": "hi-IN-SwaraNeural", "ref": "गले में खराश के लिए Amoxicillin 250 mg हर आठ घंटे में लीजिए", "hyp": "गले में खराश के लिए आमॉक्सी सीलिन ताई सौ मिल्लिग्राम हर आथ गण्टे में लिजिये"}
+{"id": "g041", "voice": "hi-IN-MadhurNeural", "ref": "गले में खराश के लिए Amoxicillin 250 mg हर आठ घंटे में लीजिए", "hyp": "गले में खराश के लिये आमॉक्सी सीलिन्ध हाई 100 मिल्लि ग्राम हर 8 गण्टे में लिजिये"}
+{"id": "g042", "voice": "hi-IN-SwaraNeural", "ref": "बुखार के लिए Telmisartan 40 mg दिन में तीन बार लीजिए", "hyp": "बुखार के लिए टेलमेजार्टिन 40 मिल्ली ग्राम दिन में 3 बार लिजिए"}
+{"id": "g042", "voice": "hi-IN-MadhurNeural", "ref": "बुखार के लिए Telmisartan 40 mg दिन में तीन बार लीजिए", "hyp": "बुखार के लिए टेलमिजार्टन 40 मिल्ली ग्राम दिन में 3 बार लिजिये"}
+{"id": "g043", "voice": "hi-IN-SwaraNeural", "ref": "उल्टी के लिए Clopidogrel 75 mg हर आठ घंटे में लीजिए", "hyp": "उल्टी के लिए, Clopidogrel 75 mg हर 8 गण्टे में लिजिये"}
+{"id": "g043", "voice": "hi-IN-MadhurNeural", "ref": "उल्टी के लिए Clopidogrel 75 mg हर आठ घंटे में लीजिए", "hyp": "उल्टी के लिए क्लौपेडोग्रल 75 मिल्ली ग्राम हर 8 घण्टे में लिजिये"}
+{"id": "g044", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Ondansetron 4 mg दिन में तीन बार दीजिए", "hyp": "मरीज को अन्डान सिट्रोन चार मिल्लिग्राम दिन में तीन बार दीजिये"}
+{"id": "g044", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Ondansetron 4 mg दिन में तीन बार दीजिए", "hyp": "मरीस को अंडान सेट्रोन चार मिल्ली ग्राम दिन में तीन बार दीजिये"}
+{"id": "g045", "voice": "hi-IN-SwaraNeural", "ref": "आपको Rabeprazole 20 mg दिन में तीन बार पाँच दिन तक लेनी है", "hyp": "आपको रेपरेजोल बीस मिल्ली ग्राम दिन में तीन बार पाँच दिन तक लेनी हैं।"}
+{"id": "g045", "voice": "hi-IN-MadhurNeural", "ref": "आपको Rabeprazole 20 mg दिन में तीन बार पाँच दिन तक लेनी है", "hyp": "आपको रेप्रेजोल बीस मिल्ली ग्राम दिन में 3 बार 5 दिन तक लेनी हैं"}
+{"id": "g046", "voice": "hi-IN-SwaraNeural", "ref": "आपको Rabeprazole 20 mg सुबह खाली पेट पाँच दिन तक लेनी है", "hyp": "आपको रेपरेजोल बीस मिल्लिग्राम सुबा खाली पेट पाँच दिन तक लेनी है"}
+{"id": "g046", "voice": "hi-IN-MadhurNeural", "ref": "आपको Rabeprazole 20 mg सुबह खाली पेट पाँच दिन तक लेनी है", "hyp": "आपको रेप्रेजोल 20 मिल्ली ग्राम सुभह खाली पेट पांच दिन तक लेनी हैं"}
+{"id": "g047", "voice": "hi-IN-SwaraNeural", "ref": "गले में खराश के लिए Amoxicillin 250 mg दिन में तीन बार लीजिए", "hyp": "गले में खराश के लिए आमॉक्सी सीलिन धाई सो मिल्ली ग्राम दिन में तीन बार लिजिये"}
+{"id": "g047", "voice": "hi-IN-MadhurNeural", "ref": "गले में खराश के लिए Amoxicillin 250 mg दिन में तीन बार लीजिए", "hyp": "गले में खराश के लिए आमॉक्सी सीलिन धाई 100 मिल्ली ग्राम दिन में 3 बार लिजिये"}
+{"id": "g048", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को दस्त और उल्टी की शिकायत है", "hyp": "मरीस को दस्त और उल्ती की शिकायत है"}
+{"id": "g048", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को दस्त और उल्टी की शिकायत है", "hyp": "मरीस को दस्त और उल्टी की शिकायत है"}
+{"id": "g049", "voice": "hi-IN-SwaraNeural", "ref": "बुखार और चक्कर कब से है", "hyp": "बुखार और चकर कब से हैं"}
+{"id": "g049", "voice": "hi-IN-MadhurNeural", "ref": "बुखार और चक्कर कब से है", "hyp": "बुखार और चकर कप से हैं"}
+{"id": "g050", "voice": "hi-IN-SwaraNeural", "ref": "आपको Insulin 10 units दिन में तीन बार दस दिन तक लेनी है", "hyp": "आपको insulin 10 units दिन में 3 बार 10 दिन तक लेनी हैं।"}
+{"id": "g050", "voice": "hi-IN-MadhurNeural", "ref": "आपको Insulin 10 units दिन में तीन बार दस दिन तक लेनी है", "hyp": "आपको insulin 10 units दिन में 3 बार 10 दिन तक लेनी हैं।"}
+{"id": "g051", "voice": "hi-IN-SwaraNeural", "ref": "Prednisolone 20 mg दर्द होने पर दस दिन तक लीजिए", "hyp": "फ्रेडनेसोलोन 20 मिल्लिग्राम दर्ध होने पर 10 दिन तक लिजिये"}
+{"id": "g051", "voice": "hi-IN-MadhurNeural", "ref": "Prednisolone 20 mg दर्द होने पर दस दिन तक लीजिए", "hyp": "प्रेडनेसोलोन बीस मिल्ली ग्राम दर्ध होने पर दस दिन तक लिजिये"}
+{"id": "g052", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को खाँसी और साँस लेने में तकलीफ़ की शिकायत है", "hyp": "मरीज को खान्सी और सान्स लेने में तकलीफ की शिकायत है"}
+{"id": "g052", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को खाँसी और साँस लेने में तकलीफ़ की शिकायत है", "hyp": "मरीस को खासी और सास लेने में ततलीफ की शिकायत है"}
+{"id": "g053", "voice": "hi-IN-SwaraNeural", "ref": "Pantoprazole 20 mg रोज़ एक बार लीजिए", "hyp": "पान्डो प्रजोल बीस मिल्ली ग्राम रोज एक बार लिजिये"}
+{"id": "g053", "voice": "hi-IN-MadhurNeural", "ref": "Pantoprazole 20 mg रोज़ एक बार लीजिए", "hyp": "पांटो प्रजोल बीस मिल्ली ग्राम रोज एक बार लिजिये"}
+{"id": "g054", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Montelukast 10 mg हर आठ घंटे में पाँच दिन तक दीजिए", "hyp": "मरीज को Montelucast 10 mg हर 8 घन्टे में 5 दिन तक दीजिये"}
+{"id": "g054", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Montelukast 10 mg हर आठ घंटे में पाँच दिन तक दीजिए", "hyp": "मरीस को Montelucast 10 mg राज आट गण्टे में 5 दिन तक दीजिये"}
+{"id": "g055", "voice": "hi-IN-SwaraNeural", "ref": "आपका haemoglobin 9 आया है", "hyp": "आपका हीमो ग्लोबिन नो आया है"}
+{"id": "g055", "voice": "hi-IN-MadhurNeural", "ref": "आपका haemoglobin 9 आया है", "hyp": "आपका हिमोग्लोबिन नो आया है"}
+{"id": "g056", "voice": "hi-IN-SwaraNeural", "ref": "आपको Clopidogrel 75 mg दिन में तीन बार पाँच दिन तक लेनी है", "hyp": "आपको Clopidogrel 75 mg दिन में 3 बार 5 दिन तक लेनी हैं।"}
+{"id": "g056", "voice": "hi-IN-MadhurNeural", "ref": "आपको Clopidogrel 75 mg दिन में तीन बार पाँच दिन तक लेनी है", "hyp": "आपको Clopidogrel 75 mg दिन में 3 बार 5 दिन तक लेनी हैं"}
+{"id": "g057", "voice": "hi-IN-SwaraNeural", "ref": "आपको Amlodipine 2 mg दिन में तीन बार लेनी है", "hyp": "आपको Amlaudapine 2 mg दिन में 3 बार लेनी हैं।"}
+{"id": "g057", "voice": "hi-IN-MadhurNeural", "ref": "आपको Amlodipine 2 mg दिन में तीन बार लेनी है", "hyp": "आपको आमलोड़पाइन 2mg दिन में 3 बार लेनी हैं।"}
+{"id": "g058", "voice": "hi-IN-SwaraNeural", "ref": "पेट में दर्द के लिए Amlodipine 5 mg सुबह खाने के बाद लीजिए", "hyp": "पेट में दर्थ के लिए अमलोडपाइन 5 मिल्ली ग्राम सूबह खाने के बाद लिजिये"}
+{"id": "g058", "voice": "hi-IN-MadhurNeural", "ref": "पेट में दर्द के लिए Amlodipine 5 mg सुबह खाने के बाद लीजिए", "hyp": "पेट में दर्ध के लिये आमलोड़िपाइन 5 मिल्ली ग्राम सुभ्ह खाने के बाद लिजिये"}
+{"id": "g059", "voice": "hi-IN-SwaraNeural", "ref": "थकान के लिए Dolo 650 mg दिन में दो बार लीजिए", "hyp": "थकान के लिए डोलो चेह सो पचास मिल्ली ग्राम दिन में दो बार लिजिये"}
+{"id": "g059", "voice": "hi-IN-MadhurNeural", "ref": "थकान के लिए Dolo 650 mg दिन में दो बार लीजिए", "hyp": "थकान के लिए डोलो 650 मिल्ली ग्राम दिन में दो बार लिजिये"}
+{"id": "g060", "voice": "hi-IN-SwaraNeural", "ref": "आपका haemoglobin 13 आया है", "hyp": "आपका हीमो ग्लोबिन तेरा आया है"}
+{"id": "g060", "voice": "hi-IN-MadhurNeural", "ref": "आपका haemoglobin 13 आया है", "hyp": "आपका हीमोग्लोबिन तेरहा आया है"}
+{"id": "g061", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को उल्टी और जोड़ों में दर्द की शिकायत है", "hyp": "मरीस को उल्टी और जोडों में दर्थ की शिकायत है"}
+{"id": "g061", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को उल्टी और जोड़ों में दर्द की शिकायत है", "hyp": "मरीस को उल्टी और जोडों में दर्थ की शिकायत है"}
+{"id": "g062", "voice": "hi-IN-SwaraNeural", "ref": "आपको Cetirizine 5 mg रात को सोने से पहले लेनी है", "hyp": "आपको सेतिराजीन 5 मिल्ली ग्राम रात को सोने से पहले लेनी है"}
+{"id": "g062", "voice": "hi-IN-MadhurNeural", "ref": "आपको Cetirizine 5 mg रात को सोने से पहले लेनी है", "hyp": "आपको सेतेरेजीन 5 मिल्ली ग्राम रात को सोने से पहले लेनी हैं"}
+{"id": "g063", "voice": "hi-IN-SwaraNeural", "ref": "Omeprazole 20 mg सुबह खाने के बाद पाँच दिन तक लीजिए", "hyp": "और में प्रजोल 20 मिल्लिग्राम सुब्ह कहाने के भाद पाच दिन तक लिजिये"}
+{"id": "g063", "voice": "hi-IN-MadhurNeural", "ref": "Omeprazole 20 mg सुबह खाने के बाद पाँच दिन तक लीजिए", "hyp": "अमेप्राजोल बीस मिल्ली ग्राम सुबह खाने के भाद पाँच दिन तक लिजिये"}
+{"id": "g064", "voice": "hi-IN-SwaraNeural", "ref": "Amlodipine 2 mg रोज़ एक बार लीजिए", "hyp": "Amylodipine 2 mg Rose एक बार लीजिये"}
+{"id": "g064", "voice": "hi-IN-MadhurNeural", "ref": "Amlodipine 2 mg रोज़ एक बार लीजिए", "hyp": "Amlaude Pine 2 mg Rose एक बार लीजिये"}
+{"id": "g065", "voice": "hi-IN-SwaraNeural", "ref": "आपको Cefixime 200 mg हर आठ घंटे में लेनी है", "hyp": "आपको सेफिक साइम 200 मिल्ली ग्राम हर 8 घन्टे में लेनी हैं"}
+{"id": "g065", "voice": "hi-IN-MadhurNeural", "ref": "आपको Cefixime 200 mg हर आठ घंटे में लेनी है", "hyp": "आपको सफिक सायं 200 मिल्ली ग्राम हर 8 गंटे में लेनी हैं"}
+{"id": "g066", "voice": "hi-IN-SwaraNeural", "ref": "आपकी रिपोर्ट में creatinine 2 है", "hyp": "आपकी रपोट में क्रियातिनाइन 2 हैं"}
+{"id": "g066", "voice": "hi-IN-MadhurNeural", "ref": "आपकी रिपोर्ट में creatinine 2 है", "hyp": "आपकी रिपोट में क्रियातिनाइन दो है"}
+{"id": "g067", "voice": "hi-IN-SwaraNeural", "ref": "आपकी रिपोर्ट में platelet count 90000 है", "hyp": "आपकी रपोट में प्लेटलेट काउंट नब्भे हजार हैं"}
+{"id": "g067", "voice": "hi-IN-MadhurNeural", "ref": "आपकी रिपोर्ट में platelet count 90000 है", "hyp": "आपकी रपूर्ट में प्लेटलेट काउट नब्डे हजार है"}
+{"id": "g068", "voice": "hi-IN-SwaraNeural", "ref": "आपका creatinine 2 आया है", "hyp": "आपका क्रियातिनाइन दो आया है"}
+{"id": "g068", "voice": "hi-IN-MadhurNeural", "ref": "आपका creatinine 2 आया है", "hyp": "आपका क्रियातेनाइन दो आया है"}
+{"id": "g069", "voice": "hi-IN-SwaraNeural", "ref": "गले में खराश और दस्त कब से है", "hyp": "गले में खराश और दस्त कप से हैं"}
+{"id": "g069", "voice": "hi-IN-MadhurNeural", "ref": "गले में खराश और दस्त कब से है", "hyp": "गले में खराश और दस्त कब से हैं"}
+{"id": "g070", "voice": "hi-IN-SwaraNeural", "ref": "थकान के लिए Amoxicillin 250 mg रात को सोने से पहले लीजिए", "hyp": "थकान के लिए आमॉक्सी सीलिन थाई सौ मिल्लिग्राम रात को सोने से पहले लिजिये"}
+{"id": "g070", "voice": "hi-IN-MadhurNeural", "ref": "थकान के लिए Amoxicillin 250 mg रात को सोने से पहले लीजिए", "hyp": "थकान के लिए Amoxy C-Lin 250 mg रात को सोने से पहले लिजिये"}
+{"id": "g071", "voice": "hi-IN-SwaraNeural", "ref": "Diclofenac 50 mg दिन में दो बार लीजिए", "hyp": "दिक्लोफिनाक 50mg दिन में दो बार लिजिये"}
+{"id": "g071", "voice": "hi-IN-MadhurNeural", "ref": "Diclofenac 50 mg दिन में दो बार लीजिए", "hyp": "दिक्लोफिनाथ 50 मिल्ली ग्राम दिन में दो बार लिजिये"}
+{"id": "g072", "voice": "hi-IN-SwaraNeural", "ref": "पेट में दर्द के लिए Pantoprazole 40 mg रोज़ एक बार लीजिए", "hyp": "पेट में दर्थ के लिए पान्टो प्रजोल 40 मिल्लि ग्राम रोज एक बार लिजिये"}
+{"id": "g072", "voice": "hi-IN-MadhurNeural", "ref": "पेट में दर्द के लिए Pantoprazole 40 mg रोज़ एक बार लीजिए", "hyp": "पेट में दर्द के लिए पैंटो प्रजोल 40 मिल्लि ग्राम रोज एक बार लिजिये"}
+{"id": "g073", "voice": "hi-IN-SwaraNeural", "ref": "आपको Glimepiride 1 mg रोज़ एक बार पाँच दिन तक लेनी है", "hyp": "आपको Glymperide 1 mg रोज एक बार 5 दिन तक लेनी हैं।"}
+{"id": "g073", "voice": "hi-IN-MadhurNeural", "ref": "आपको Glimepiride 1 mg रोज़ एक बार पाँच दिन तक लेनी है", "hyp": "आपको glymperide 1 mg रोज एक बार पाँच दिन तक लेनी हैं।"}
+{"id": "g074", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को Cetirizine 10 mg दर्द होने पर एक हफ़्ते तक दीजिए", "hyp": "मरीज को सेतिरेसीन 10 मिल्लि ग्राम दर्ध होने पर एक हफते तक दीजिये"}
+{"id": "g074", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को Cetirizine 10 mg दर्द होने पर एक हफ़्ते तक दीजिए", "hyp": "मरीस को सेतेरेसीन 10 मिल्ली ग्राम दर्ध होने पर एक हफते तक दीजिये"}
+{"id": "g075", "voice": "hi-IN-SwaraNeural", "ref": "दस्त और उल्टी कब से है", "hyp": "दस्त और उल्टी कप से हैं"}
+{"id": "g075", "voice": "hi-IN-MadhurNeural", "ref": "दस्त और उल्टी कब से है", "hyp": "दस्त और उल्टी कब से हैं"}
+{"id": "g076", "voice": "hi-IN-SwaraNeural", "ref": "Glimepiride 2 mg हर आठ घंटे में लीजिए", "hyp": "Glymepirite 2 mg रज आट गण्टे में लीजे"}
+{"id": "g076", "voice": "hi-IN-MadhurNeural", "ref": "Glimepiride 2 mg हर आठ घंटे में लीजिए", "hyp": "ग्लाइम पे राइड 2 मिल्ली ग्राम हर 8 घंटे में लिजिये"}
+{"id": "g077", "voice": "hi-IN-SwaraNeural", "ref": "मरीज़ को नींद न आना और साँस लेने में तकलीफ़ की शिकायत है", "hyp": "मरीस को निन्द ना आना और सान्स लेने में तकलीफ की शिकायत है"}
+{"id": "g077", "voice": "hi-IN-MadhurNeural", "ref": "मरीज़ को नींद न आना और साँस लेने में तकलीफ़ की शिकायत है", "hyp": "मरीस को नेंद ना आना और सांस लेने में तकलीफ की शिकायत है"}
+{"id": "g078", "voice": "hi-IN-SwaraNeural", "ref": "सीने में दर्द और कमज़ोरी कब से है", "hyp": "सीने में दर्द और कम्जोरी कप से हैं"}
+{"id": "g078", "voice": "hi-IN-MadhurNeural", "ref": "सीने में दर्द और कमज़ोरी कब से है", "hyp": "सीने में दर्द और कम्जोरी कप से हैं"}
+{"id": "g079", "voice": "hi-IN-SwaraNeural", "ref": "आपका sugar fasting 96 आया है", "hyp": "आपका sugar fasting 96 आया है"}
+{"id": "g079", "voice": "hi-IN-MadhurNeural", "ref": "आपका sugar fasting 96 आया है", "hyp": "आपका Sugar Fasting 96 आया है"}
+{"id": "g080", "voice": "hi-IN-SwaraNeural", "ref": "आपको Amoxicillin 500 mg सुबह खाने के बाद पाँच दिन तक लेनी है", "hyp": "आपको आमॉक्सी सीलिन 500 मिल्लिग्राम सुभा खाने के भाद पाँच दिन तक लेनी हैं।"}
+{"id": "g080", "voice": "hi-IN-MadhurNeural", "ref": "आपको Amoxicillin 500 mg सुबह खाने के बाद पाँच दिन तक लेनी है", "hyp": "आपको AmoxyCeline 500 mg सुबह खाने के भाद पाँच दिन तक लेनी हैं।"}

@@ -1,0 +1,100 @@
+{"audio": "audio/hinglish_test_000000.wav", "ref": "managing content पर spoken tutorial में आपका स्वागत है", "hyp": "managing content पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000001.wav", "ref": "इस tutorial हम सीखेंगे नया कंटेंट बनाना", "hyp": "इस tutorial में हम सीखेंगे नया content बनाना"}
+{"audio": "audio/hinglish_test_000002.wav", "ref": "कंटेंट को मैनेज करना  और  रिविजन", "hyp": "content को manage करना और revision"}
+{"audio": "audio/hinglish_test_000003.wav", "ref": "इस tutorial को record करने के लिए मैं उबंटु ऑपरेटिंग सिस्टम drupal 8 और firefox वेब ब्राउजर उपयोग कर रही हूँ", "hyp": "इस tutorial को record करने के लिए मैं उबंटु ऑपरेटिंग सिस्टम drupal 8 और firefox वेब ब्राउजर उपयोग कर रही हूँ"}
+{"audio": "audio/hinglish_test_000004.wav", "ref": "आप अपने पसंद का कोई भी web browser उपयोग कर सकते हैं", "hyp": "आप अपनी पसंद का कोई भी web browser उपयोग कर सकते हैं"}
+{"audio": "audio/hinglish_test_000005.wav", "ref": "अपनी website को खोलें जिसे हमने पहले ही बनाया है", "hyp": "अपनी website को खोलें जिसे हमने पहले ही बनाया है"}
+{"audio": "audio/hinglish_test_000006.wav", "ref": "अब हम सीखेंगे कि now कंटेंट को कैसे बनाएँ", "hyp": "अब हम सीखेंगे कि नये content को कैसे बनाएँ"}
+{"audio": "audio/hinglish_test_000007.wav", "ref": "हम अपना पहला event जोडेंगे content पर click करें", "hyp": "हम अपना पहला event जोड़ेंगे content पर click करें"}
+{"audio": "audio/hinglish_test_000008.wav", "ref": "add content पर click करें औऱ events चुनें", "hyp": "add content पर click करें और events चुनें"}
+{"audio": "audio/hinglish_test_000009.wav", "ref": "हम कुछ चीजें प्रदर्शित करने के लिए सैम्पल event set करेंगे जिसे हमने set किया है", "hyp": "हम कुछ चीज़ें प्रदर्शित करने के लिए sample event set करेंगे जिसे हमने set किया है"}
+{"audio": "audio/hinglish_test_000010.wav", "ref": "drupal site management पर spoken tutorial में आपका स्वागत है", "hyp": "drupal site management पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000011.wav", "ref": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ उबंटु लिनक्स ऑपरेटिंग सिस्टम drupal 8 और firefox वेब ब्राउजर आप अपने पसंद का कोई भी वेब ब्राउजर उपयोग कर सकते हैं", "hyp": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ"}
+{"audio": "audio/hinglish_test_000012.wav", "ref": "site management क्या है site management हैः बाद में drupal के कोड को अपडेट करना है जो कि core modules और themes है", "hyp": "site management क्या है"}
+{"audio": "audio/hinglish_test_000013.wav", "ref": "errors का निरीक्षण और फिक्स करना यूजर की गतिविधि के बारे में पढना आदि", "hyp": "arrays का निरीकषण और फिक्स करना यूज़र की गतिविधि के बारे में पढ़ना आदि"}
+{"audio": "audio/hinglish_test_000014.wav", "ref": "अपनी साइट खोलें जिसे हमने पहले ही बनाया है", "hyp": "अपनी site खोलें जिसे हमने पहले ही बनाया है"}
+{"audio": "audio/hinglish_test_000015.wav", "ref": "site management का शुरूआती प्वाइंट reports menu है यदि आप को अतिरिक्त सहायता की जरूरत है तो आप help menu से परामर्श the सकते हैं", "hyp": "site management का शुरूआती point reports menu है"}
+{"audio": "audio/hinglish_test_000016.wav", "ref": "reports पर click करें हम reports की एक सूची देखते हैं जिसे हम अपने drupal site पर प्राप्त कर सकते हैं", "hyp": "reports पर click करें हम report की एक सूची देखते हैं जिसे हम अपने drupal site पर प्राप्त कर सकते हैं"}
+{"audio": "audio/hinglish_test_000017.wav", "ref": "available updates पर click करें", "hyp": "available updates पर click करें"}
+{"audio": "audio/hinglish_test_000018.wav", "ref": "यदि कुछ भी लाल background में है इसका मतलब है कि यहाँ security update है और हमें इसे जल्दी ही अपडेट करना चाहिए", "hyp": "यदि कुछ भी लाल background में है इसका मतलब है कि यहाँ security update है और हमें इसे जल्दी ही update करना चाहिए"}
+{"audio": "audio/hinglish_test_000019.wav", "ref": "लिबर ऑफिस impress में एक प्रस्तुति document बनाना और बुनियादी formatting के इस spoken tutorial में आपका स्वागत है", "hyp": "लिबर ऑफिस impress में एक प्रस्तुति document बनाना और बुनियादी formatting के इस spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000020.wav", "ref": "इस tutorial में हम impress window के भागों के बारे में सीखेंगे और कैसे स्लाइड इन्सर्ट करें और कॉपी करें फॉन्ट तथा फॉन्ट को फॉर्मेट करना सीखेंगे", "hyp": "इस tutorial में हम impress window के भागों के बारे में सीखेंगे और कैसे slide insert करें और copy करें font तथा font को format करना सीखेंगे"}
+{"audio": "audio/hinglish_test_000021.wav", "ref": "यहाँ हम उबंटु लिनक्स वर्जन 1004 और लिबरऑफिस वर्जन 334 का उपयोग कर रहे हैं", "hyp": "यहाँ हम उबंटू लिनक्स वर्जन 1004 और लिबरऑफिस वर्जन 334 का उपयोग कर रहे हैं"}
+{"audio": "audio/hinglish_test_000022.wav", "ref": "चलिए अपनी प्रस्तुति प्रेजैटेशन sample impress open करते हैं जिसे पिछले tutorial में बनाया था", "hyp": "चलिए अपनी प्रस्तुति sampleimplus open करते हैं जिसे पिछले tutorial में बनाया है"}
+{"audio": "audio/hinglish_test_000023.wav", "ref": "चलिए देखते हैं कि screen पर क्या क्या है", "hyp": "चलिए देते हैं कि screen पर क्या क्या है"}
+{"audio": "audio/hinglish_test_000024.wav", "ref": "मध्य में हम खाली जगह देखते है जोकि workspace है जहाँ हम काम करेंगे", "hyp": "इस tutorial में हम खाली जगह देखते हैं जो कि workspace है जहाँ हम काम करें"}
+{"audio": "audio/hinglish_test_000025.wav", "ref": "जैसे कि आप देख सकते हैं workspace में 5 tabs हैं जिन्हें view buttons कहते हैं", "hyp": "जैसे कि आप देख सकते हैं workspace में 5 tabs हैं"}
+{"audio": "audio/hinglish_test_000026.wav", "ref": "फिलहाल normal टैब चुनित हैं", "hyp": "फिर हाल normal टैब चुनित है"}
+{"audio": "audio/hinglish_test_000027.wav", "ref": "यह मुख्य view है अलगअलग slides बनाने के लिए", "hyp": "यह मुख्य view है अलग अलग स्लाइट बनाने के लिए"}
+{"audio": "audio/hinglish_test_000028.wav", "ref": "outline view प्रत्येक slide के outline format में विषय शीर्षक bulleted और क्रमांकित सूचियाँ बताता है", "hyp": "आउटलाइन व्यू प्रत्येक्स लाइट के आउटलाइन फॉर्मेट में विशाय शीर्षक बुलेटेड और कमांकित स्वूचियां बताता हैं"}
+{"audio": "audio/hinglish_test_000029.wav", "ref": "registration of an account for online train booking  के स्पोकन ट्यूटोरियल में आपका स्वागत है", "hyp": "connection of an account for online train booking के spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000030.wav", "ref": "इस tutorial में हम सीखेंगे कि irctc co in में एक नया account कैसे register करें", "hyp": "इस tutorial हम सीखेंगे कि irctc dot co dot in में एक नया account कैसे register करें"}
+{"audio": "audio/hinglish_test_000031.wav", "ref": "हम निम्न के बारे में सीखेंगे", "hyp": "यदि निम्न प्रभार्य में सीखेंगे"}
+{"audio": "audio/hinglish_test_000032.wav", "ref": "यूज़र की जानकारी प्रविष्ट करना account एक्टिवेट करना और", "hyp": "account activate करना और"}
+{"audio": "audio/hinglish_test_000033.wav", "ref": "password बदलना", "hyp": "password बदलना"}
+{"audio": "audio/hinglish_test_000034.wav", "ref": "यूज़र की जानकारी पर कुछ tips", "hyp": "हम इस tutorial में आपका स्ट्रिप्ट हैं"}
+{"audio": "audio/hinglish_test_000035.wav", "ref": "name में 10 से कम characters होने चाहिए", "hyp": "इसमें letters numbers और जानकारी पर्यारी होने चाहिए"}
+{"audio": "audio/hinglish_test_000036.wav", "ref": "इसमें letters numbers और underscore हो सकते हैं", "hyp": "synfig नम्बर्स और अंडरस्कोर हो सकते हैं"}
+{"audio": "audio/hinglish_test_000037.wav", "ref": "security क्वेशन उपयोगी है जब हम password भूल जाते हैं", "hyp": "जब हम password भोल जाते हैं"}
+{"audio": "audio/hinglish_test_000038.wav", "ref": "account activation जानकारी email और mobile पर भेजी जाती है", "hyp": "इस tutorial में हम एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक ए"}
+{"audio": "audio/hinglish_test_000039.wav", "ref": "नमस्कार दोस्तों bash में case statement पर spoken tutorial में आपका स्वागत है", "hyp": "नमस्कार दोस्तों bash में case statement पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000040.wav", "ref": "इस tutorial में हम एक उदाहरण के साथ case statement के महत्व case statement के syntax के बारे में सीखेंगे", "hyp": "इस tutorial में हम एक उदाहरण के साथ case statement के महत्व case statement के सिंटक्स के बारे में सीखेंगे"}
+{"audio": "audio/hinglish_test_000041.wav", "ref": "इस tutorial का अनुकरण करने के लिए आपको shell scripting का बुनियादी ज्ञान होना चाहिए", "hyp": "इस tutorial का अनुकरण करने के लिए आपको shell scripting का बुनियादी ज्ञान होना चाहिए"}
+{"audio": "audio/hinglish_test_000042.wav", "ref": "यदि नहीं तो कृपया संबंधित tutorials के लिए दिखाई गई website पर जाएँ", "hyp": "यदि नहीं तो कृपया संबंधित tutorials के लिए दिखाई गई website पर जाएँ"}
+{"audio": "audio/hinglish_test_000043.wav", "ref": "इस tutorial के लिए मैं उपयोग कर रही हूँ ऊबंटु लिनक्स 1204 operating system और gnu bash version 4110", "hyp": "इस tutorial के लिए मैं उपयोग कर रही हूँ ऊबंटु लिनक्स 1204 operating system और gnu bash version 4110"}
+{"audio": "audio/hinglish_test_000044.wav", "ref": "कृपया ध्यान दें अभ्यास के लिए gnu bash version 4 या उपरोक्त की सलाह दी जाती है", "hyp": "कृपया ध्यान दें अपयास के लिए gnu bash version 4 या उपरोक्त की सलाह दी जाती है"}
+{"audio": "audio/hinglish_test_000045.wav", "ref": "bash shell में conditional statements के दो रूप हैं if statements और case statements", "hyp": "bash shell में conditional statement के दो रूप हैं if statement और case statement"}
+{"audio": "audio/hinglish_test_000046.wav", "ref": "case statement को ifelse statement के स्थान पर उपयोग किया जा सकता है", "hyp": "kis statement को ifs statement के स्थान पर उपयोग किया जा सकता है"}
+{"audio": "audio/hinglish_test_000047.wav", "ref": "case statement को प्राथमिकता the जाती है जब चयन करने के लिए वहाँ कहीं items हों", "hyp": "case statement को प्राथमिकता दी जाती है जब चयन करने के लिए वहाँ कई items हो"}
+{"audio": "audio/hinglish_test_000048.wav", "ref": "यह आमतौर पर script में menus बनाने के लिए उपयोग किया जाता है", "hyp": "यह आमतौर पर स्क्रिप्ट में menus बनाने के लिए उपयोग किया जाता है"}
+{"audio": "audio/hinglish_test_000049.wav", "ref": "लिनक्स में simple filters के इस tutorial में आपका स्वागत है", "hyp": "libreoffice base पर simple filters के इस tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000050.wav", "ref": "यहाँ हम head head tail tail sort sort cut cut और paste paste के बारे में सीखेंगे", "hyp": "हेड टेल सॉर्ट कट और पेस्ट के बारे में सीखेंगे"}
+{"audio": "audio/hinglish_test_000051.wav", "ref": "यह सारे command line text मनिप्यूलेशन tools हैं", "hyp": "यदि आप terminal पर hash चिन्हों के बारे में है"}
+{"audio": "audio/hinglish_test_000052.wav", "ref": "यदि आप terminal पर # हैशचिन्ह देखते हैं तो आपको उन commands को निष्पादित करने के लिए root बनाना होगा", "hyp": "हम यह देखते हैं तो आपको उन commands को निष्पादित करने के लिए root बनाना होगा sudo su और suro"}
+{"audio": "audio/hinglish_test_000053.wav", "ref": "sudo su or su root यदि आप terminal पर $dollar चिन्ह देखते हैं तो एक सामान्य उपयोगकर्ता उन commands को निष्पादित कर सकता है", "hyp": "यदि आप terminal पर dollar चिन्ह देखते हैं तो एक सामान्य उपयोग करता उन commands को निष्पादित कर सकता है"}
+{"audio": "audio/hinglish_test_000054.wav", "ref": "मैं ये मानती हूँ कि आपने default installation की है और path में कहीं बदलाव नहीं लाया है जहाँ files सेव हो रही हैं", "hyp": "इस tutorial के लिए मैं उपयोग को निर्धारित करने के लिए विश्व पार्थ को नहीं बदलाफ़ नहीं लाया है"}
+{"audio": "audio/hinglish_test_000055.wav", "ref": "इस tutorial के लिए मैं लिनक्स इस्तेमाल कर रही हूँ", "hyp": "इस भाग के लिए आपको mouse सता कि बोल रही हूँ"}
+{"audio": "audio/hinglish_test_000056.wav", "ref": "इस भाग के लिए आपको mouse तथा keyboard का प्रयोग करना और window पर maximize तथा minimize buttons का प्रयोग करना आना ज़रुरी है", "hyp": "एक फाइल की पहली देखेंगे"}
+{"audio": "audio/hinglish_test_000057.wav", "ref": "एक file की पहली 10 lines को प्रदर्शित करने के लिए हम head command देते हैं उसके बाद एक ascii file नेम देते हैं", "hyp": "इसके बाद एक एस्की file name देते हैं चलिए एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक �"}
+{"audio": "audio/hinglish_test_000058.wav", "ref": "चलिए file बनाते हैं", "hyp": "चलिए एक फाइल बनाते हैं"}
+{"audio": "audio/hinglish_test_000059.wav", "ref": "नमस्कार multidimensional arrays in awk पर spoken tutorial में आपका स्वागत है", "hyp": "नमस्कार multidimensional arrays in awk पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000060.wav", "ref": "इस tutorial में हम awk में multidimensional array बनाना और multidimensional array स्कैन करना सीखेंगे", "hyp": "इस tutorial में हम awk में"}
+{"audio": "audio/hinglish_test_000061.wav", "ref": "हम यह कुछ उदाहरणों के माध्यम से करेंगे", "hyp": "हम यह कुछ उदाहरणों के माध्यम से करेंगे"}
+{"audio": "audio/hinglish_test_000062.wav", "ref": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ ubuntu linux 1604 operating system और gedit text editor 3201", "hyp": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ"}
+{"audio": "audio/hinglish_test_000063.wav", "ref": "आप अपनी पसंद के किसी भी text editor का उपयोग कर सकते हैं", "hyp": "आप अपनी पसंद के किसी भी text editor का उपयोग कर सकते हैं"}
+{"audio": "audio/hinglish_test_000064.wav", "ref": "इस tutorial का अभ्यास करने के लिए आपको इस website पर array पर पिछले awk tutorials को देखना चाहिए", "hyp": "इस tutorial का अभ्यास करने के लिए आपकोई स्वेबसाइट पर array पर पिछले awk tutorials को देखना चाहिए"}
+{"audio": "audio/hinglish_test_000065.wav", "ref": "आपको किसी भी programming भाषा का बुनियादी ज्ञान होना चाहिए जैसे c या c + +", "hyp": "आपको किसी भी programming भाषा का बुनियादी ज्ञान होना चाहिए जैसे c या c प्लस प्लस"}
+{"audio": "audio/hinglish_test_000066.wav", "ref": "यदि नहीं तो कृपया हमारी website पर समरूपी tutorials देखें", "hyp": "यदि नहीं तो कृपया हमारी website पर समरूपी tutorials देखें"}
+{"audio": "audio/hinglish_test_000067.wav", "ref": "इस tutorial में उपयोगित files इस tutorial के पेज पर code files link में उपलब्ध हैं कृपया उन्हें डाउनलोड और एक्स्ट्रैक्ट करें", "hyp": "इस tutorial में उपयोगित files इस tutorial के पेज पर code files link में उपलब्ध हैं कृपया उन्हें डाउनलोड और एक्स्ट्रैक्ट करें"}
+{"audio": "audio/hinglish_test_000068.wav", "ref": "awk में multidimensional array क्या है", "hyp": "awk में multidimensional array क्या है"}
+{"audio": "audio/hinglish_test_000069.wav", "ref": "लिबरे ऑफिस writer के text typing और बुनियादी स्वरूपण यानि basic formatting के इस tutorial में आपका स्वागत है", "hyp": "libreoffice writer के text typing और"}
+{"audio": "audio/hinglish_test_000070.wav", "ref": "इस tutorial में हम निम्नलिखित सीखेंगे", "hyp": "इस tutorial में हम निम्नलिक है"}
+{"audio": "audio/hinglish_test_000071.wav", "ref": "writer में aligning text", "hyp": "अब हम निम्न लिकित सीखेंगे"}
+{"audio": "audio/hinglish_test_000072.wav", "ref": "bullets और क्रमांकन numbering", "hyp": "इस tutorial में aligning text"}
+{"audio": "audio/hinglish_test_000073.wav", "ref": "writer में cut copy paste options", "hyp": "riter make cut copy paste options"}
+{"audio": "audio/hinglish_test_000074.wav", "ref": "bold underline और italic options", "hyp": "bold underline और italics options"}
+{"audio": "audio/hinglish_test_000075.wav", "ref": "writer में font नेम font size font color", "hyp": "आप्शन्स writer में font name fontsize fontcolour"}
+{"audio": "audio/hinglish_test_000076.wav", "ref": "documents में इन विशेषताओं का उपयोग करके plain text documents की तुलना में पढ़ने के लिए अधिक आकर्षित और अधिक सरल बनाएँ", "hyp": "documents में इन विशेषताओं का उपयोग करके plain text documents की तुलना में पढ़ने के लिए अधिक आकर्षित और अधिक सरल बनाएं"}
+{"audio": "audio/hinglish_test_000077.wav", "ref": "यहाँ हम अपने ऑपरेटिंग सिस्टम के रूप में gnu/लिनक्स का उपयोग कर रहे हैं और लिबरे ऑफिस सूट वर्जन 334", "hyp": "यहाँ हम अपने operating system के रूप में gnu लिनक्स का उपयोग कर रहे हैं और libreoffice suite version 334"}
+{"audio": "audio/hinglish_test_000078.wav", "ref": "हम पहले writer में aligning text के बारे में सीखेंगे", "hyp": "हम पहले writer में aligning text के बारे में सीखेंगे"}
+{"audio": "audio/hinglish_test_000079.wav", "ref": "नमस्कार दोस्तों  getting started with ipython पर स्पोकन ट्यूटोरियल में आपका स्वागत है", "hyp": "नमस्कार दोस्तों getting started with ipython पर स्पोकन ट्यूटोरियल में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000080.wav", "ref": "इस ट्यूटोरियल के अंत में आप निम्न करने में सक्षम होगें  ipython interpreter शुरू करना", "hyp": "इस ट्यूटोरियल के अंत में आप निम्न करने में सक्षम होंगे"}
+{"audio": "audio/hinglish_test_000081.wav", "ref": "ipython interpreter बंद करना", "hyp": "ipython इंटरप्रेटर बंद करना"}
+{"audio": "audio/hinglish_test_000082.wav", "ref": "ipython session हिस्ट्री नेविगेट करना", "hyp": "ipython session history नेविगेट करना"}
+{"audio": "audio/hinglish_test_000083.wav", "ref": "ipython में tabcompletion का उपयोग करना", "hyp": "ipython में टैब कंप्लीशन का उपयोग करना"}
+{"audio": "audio/hinglish_test_000084.wav", "ref": "ipython में प्रलेखीकरण देखना", "hyp": "ipython में प्रलेखीकरण देखना"}
+{"audio": "audio/hinglish_test_000085.wav", "ref": "अधूरी या गलत कमांड रोकना", "hyp": "अदूरी या गरत कमांड रोकना"}
+{"audio": "audio/hinglish_test_000086.wav", "ref": "इस ट्यूटोरियल को रिकॉर्ड करने के लिए मैं उपयोग कर रही हूँ उबंटु लिनक्स 1404 ऑपरेटिंग सिस्टम", "hyp": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ उबंटु लिनक्स 1404 operating system"}
+{"audio": "audio/hinglish_test_000087.wav", "ref": "python 352   ipython 510", "hyp": "python 352"}
+{"audio": "audio/hinglish_test_000088.wav", "ref": "ipython क्या है", "hyp": "ipython क्या है"}
+{"audio": "audio/hinglish_test_000089.wav", "ref": "import marc file into koha पर स्पोकन ट्यूटोरियल में आपका स्वागत है", "hyp": "import marg file into koha पर spoken tutorial में आपका स्वागत है"}
+{"audio": "audio/hinglish_test_000090.wav", "ref": "इस ट्यूटोरियल में हम सीखेंगे  koha में  marc फाइल इंपोर्ट करना और  opac में इम्पोर्टेड डेटा सर्च करना", "hyp": "इस tutorial में हम सीखेंगे"}
+{"audio": "audio/hinglish_test_000091.wav", "ref": "इस ट्यूटोरियल को रिकॉर्ड करने के लिए मैं उपयोग कर रही हूँ  ubuntu linux os 1604", "hyp": "इस tutorial को record करने के लिए मैं उपयोग कर रही हूँ ubuntu linux os 1604"}
+{"audio": "audio/hinglish_test_000092.wav", "ref": "koha version 1605  और  firefox web browser", "hyp": "koha version 1605 और firefox web browser"}
+{"audio": "audio/hinglish_test_000093.wav", "ref": "आप अपनी पसंद के किसी भी अन्य वेब ब्राउज़र का उपयोग कर सकते हैं", "hyp": "आप अपनी पसंद के किसी भी अन्य web browser का उपयोग कर सकते हैं"}
+{"audio": "audio/hinglish_test_000094.wav", "ref": "इस tutorial का अनुकरण करने के लिए शिक्षार्थियों को library science से परिचित होना चाहिए", "hyp": "इस tutorial का अनुकरण करने के लिए शिक्षार्थियों को library science से परिचीत होना चाहिए"}
+{"audio": "audio/hinglish_test_000095.wav", "ref": "इस tutorial का अभ्यास करने के लिए आपके system पर koha संस्थापित होना चाहिए", "hyp": "इस tutorial का अभ्यास करने के लिए आपके system पर koha संस्थापित होना चाहिए और आपको koha में admin access भी होना चाहिए"}
+{"audio": "audio/hinglish_test_000096.wav", "ref": "यदि नहीं तो कृपया इस website पर koha spoken tutorial की श्रृंखला देखें", "hyp": "यदि नहीं तो कृपया इस website पर koha spoken tutorial की श्रृंखला देखें"}
+{"audio": "audio/hinglish_test_000097.wav", "ref": "records को  koha में इंपोर्ट दो तरीके से किया जाता है:", "hyp": "records को koha में import दो तरीके से किया जाता है"}
+{"audio": "audio/hinglish_test_000098.wav", "ref": "शुरू करने के लिए चलिए अपने superlibrarian  के साथ koha में लॉगिन करें", "hyp": "शुरू करने के लिए चलिए अपने superlibrarian के साथ koha में login करें"}
+{"audio": "audio/hinglish_test_000099.wav", "ref": "managing content पर spoken tutorial में आपका स्वागत है", "hyp": "managing content पर spoken tutorial में आपका स्वागत है"}

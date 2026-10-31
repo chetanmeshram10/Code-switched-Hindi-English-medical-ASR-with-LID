@@ -1,0 +1,40 @@
+{
+  "n_train": 1800,
+  "n_test": 300,
+  "builtin_collapsed_acc": 0.9167,
+  "head_collapsed_acc": 1.0,
+  "head_3class_acc": 0.9933,
+  "head_macro_f1": 0.9933,
+  "per_class_f1": {
+    "hi": 0.9899,
+    "en": 1.0,
+    "hinglish": 0.9901
+  },
+  "confusion_labels": [
+    "hi",
+    "en",
+    "hinglish"
+  ],
+  "confusion": [
+    [
+      98,
+      0,
+      2
+    ],
+    [
+      0,
+      100,
+      0
+    ],
+    [
+      0,
+      0,
+      100
+    ]
+  ],
+  "medical_probe_pred_share": {
+    "hi": 0.3292,
+    "en": 0.0,
+    "hinglish": 0.6708
+  }
+}
