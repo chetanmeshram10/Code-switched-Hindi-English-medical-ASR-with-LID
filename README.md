@@ -143,3 +143,21 @@ study using the dataset's noisy splits, larger LoRA ablations (e1: no code-switc
 
 ## Privacy
 Only public datasets and synthetic speech. No patient data.
+
+
+## 👨‍💻 Author
+
+## **Chetan Meshram**
+
+**Mtech IT IIITA Student**
+
+🔗 GitHub: https://github.com/chetanmeshram10
+
+---
+
+## ⭐ Support
+If you found this project useful:
+- ⭐ Star the repository
+- 🍴 Fork it
+- 📢 Share
+
